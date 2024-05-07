@@ -1,0 +1,119 @@
+
+- [ ] 아웃룩으로 인증번호 넘어오면 그걸로 암호저장하면 VPN 연결댐 (FortiClient VPN)
+- [ ] Forticlient VPN 등록하기 (승인확인~)
+
+
+- [ ] 근로계약서 작성하기 -> 송부
+- [ ] 아웃룩 다운받기
+
+- [ ] HeidiSQL 사용방법 익히기
+- [ ] redis 겅부
+- [ ] 게임 외우기
+
+- [x] 사이트 익히기
+- [x] 사전예약 코드 익히기(1차로 훑음)
+- [x] 인텔리제이 단축키 정리하기 ㅋ
+- 인텔리제이 ㅋㅎ.. 단축키 -> 화면 늘리기 단축키 찾기
+
+(5/7)
+- [ ] Flow 한 눈에 보이게 정리하기
+- [ ] spring MVC 폴더위치 확인하기
+- [ ] obsydian git 연결 찾아보기
+- [x] OJT 진행
+- [[OJT 정리]]
+
+### 그라나도 사전예약 건(~7월 초)
+
+그라나도 사전예약 7월 초
+- 모바일 / 홈페이지 따로 진행예정
+- 기존 사전가입 레퍼런스 많아서 참고 ㄱㄱ
+- 프론트만 보면됨
+
+1. 그라나도 사전가입
+[https://qa.mangot5.com/game/ge/preSignup/index](https://qa.mangot5.com/game/ge/preSignup/index "https://qa.mangot5.com/game/ge/presignup/index")
+
+2. 레퍼런스 cls 사전가입 
+[https://qa.mangot5.com/game/cls/preSignup/index](https://qa.mangot5.com/game/cls/preSignup/index "https://qa.mangot5.com/game/cls/presignup/index")
+
+jcgf 구조 분석
+- 프론트는 주로 그대로 따라감
+
+duplicate line or selection
+
+
+****
+
+### 사전예약 Flow
+
+1. qa.mangot5.com/game/cls/preSignup/index
+	game/게임명/preSignup/index 페이지 get 호출
+
+2. 호출시 Event 클래스의 
+```
+@RequestMapping(value = { "/{gname}/preSignup/index", "/{gname}/preReservation/index" } , method = RequestMethod.GET)  
+public abstract ModelAndView preSignup(@PathVariable String gname, HttpServletRequest request) throws Exception;
+```
+를 상속받은 EventController 클래스의
+```
+/**  doc : https://dev.azure.com/jeffkang/ht-devOps/_wiki/wikis/ht-devOps.wiki/134/Presign-up */
+@Override  
+public ModelAndView preSignup(@PathVariable String gname, HttpServletRequest request) throws Exception {
+```
+
+메서드로 이동함.
+
+해당 메서드에서 setting 에서 한 redis 세팅 값을 불러와 view(Map)로 전달
+
+
+3. 컨트롤러 이후 /WEB-INF/jsp/promotion/preRegistInvite/ge/index.jsp 에서 화면구현됨
+	/WEB-INF/jsp/promotion/preRegistInvite/(게임명)/index.jsp
+
+4. 해당 페이지에서 로그인 시 로그인 후 
+`<img src="//landing.mangot5.com/template/cls/event/211111_lucy/image/galaxy_sign1.png" alt="로그인" onclick="window.location.href='/Index/Member/Login?ref=/game/cls/preSignup/index'"`
+
+사전예약 페이지로 리다이렉트됨.
+
+리다이렉트되기 전~~~~
+
+
+- 로그인 클릭 시 작동 함수는 index.jsp 파일 하단 script로 function Signup() 에 적혀있음
+
+- 위 함수에서 로그인 정보 가공해서 
+	Events.java의 (138line) /game/ge/preSignup/send.json 로 post 요청함(비동기)
+	해당 메서드는 **EventsController.java에 상속됨 (line 581)**
+		redis를 사용하는 값이 없으면 env에 설정한 값으로 설정됨.
+		#바꿀부분 line623 / gname.equals("게임명")
+		- **PreregisterInviteService 서비스(bean) 호출해서 validateUserData 메서드** 호출.(line404)
+			#바꿀부분 line419(PreregisterInviteService.java) gname / line447 / line496
+			- 여기서 수많은 에러조건들 통과하면 **PreregisterInviteService.doPrelogin 메서드 호출**, (line492)
+			- doPrelogin 메서드 내에서 PreregisterInvite DTO생성 후 로그인정보 입력 → 이후 DAO 호출 (**preregisterInviteDao.Prelogin_insertMembersData(newObj)**), line89 → batis의 getSqlMapClientTemplate 클래스(lib) 로 **로그인 정보 DB 인서트**! : 자세한 인서트 코드는 getSqlMapClientTemplate.insert 메서드에서 화긴) → **newObj.getShare_code() 리턴**
+			- 다 돌아온 후 **result에 메세지 세팅 후 리턴(PreRegistInvitePostResultVO 객체)**
+	- **EventsController.java에 service에서 리턴된 result 대입 후 리턴**
+	
+	- 비동기응답 후 아까 비동기 호출했던 index.jsp 페이지에서 정상로그인 여부에 따라 alert띄움.
+
+
+#### 마이바티스 쿼리
+마이바티스 쿼리 preregister_invite_withoutfb 있는 xml 은 preregisterInvite.xml 에 있습니다
+
+_최근 소호강호 라는 게임이 오픈했을 떄 했던 사전예약 조회인데 이거 보시면 될 거 같습니다._
+
+_select_ * _from_ preregister_invite_withoutfb _where_ gname = 'xa' _order by_ data_created _desc;_
+
+
+
+## Q. 
+
+~~1. 그럼 jsgf는 redis를 DB처럼 쓰는건가...?
+~~-> jcgf DB 따로 씁니당!
+**jcgf_qa 중 preregister_invite_withoutfb 에서 확인가능**
+
+2. 인텔리제이에 git 연결하는게 그럼 한 컴퓨터에서는 계정을 하나만 쓸 수 있는곤가,,,?
+3. jcgf 폴더에 /out 폴더는 뭐하는데지,,?
+4. 
+
+
+
+### (진행후)사전가입 데이터 추출(사업팀 보고용)
+[[가입 데이터 추출 페이지 추가(사업팀 보고용)]]
+
