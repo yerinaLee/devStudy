@@ -5,10 +5,6 @@
 - [ ] 파일질라 설치 및 개인키 등록 & 연결 테스트
 - [ ] 백엔) 아마도,,, [런디버그 어쩌구](https://dev.azure.com/jeffkang/ht-devOps/_wiki/wikis/ht-devOps.wiki/900/BackEnd-Project-Setting(Temp))를 해야할 것 
 
-깃헙~~~~
-수정~~~~~
-수정~~~~~수정~~~~~수정~~~~~수정~~~~~수정~~~~~수정~~~~~수정~~~~~
-
 - [ ] 근로계약서 작성하기 -> 송부
 - [ ] 아웃룩 how?
 
@@ -36,6 +32,13 @@
 - [x] redis 겅부
 - [ ] [키보드 ㄱㅂㅈㄱ](https://s.ppomppu.co.kr/?idno=ppomppu_540524&target=aHR0cDovL2l0ZW1wYWdlMy5hdWN0aW9uLmNvLmtyL0RldGFpbFZpZXcuYXNweD9JdGVtTm89RTM2NjMyMzE4OCZmcm0zPVYy&encode=on](https://s.ppomppu.co.kr/?idno=ppomppu_540524&target=aHR0cDovL2l0ZW1wYWdlMy5hdWN0aW9uLmNvLmtyL0RldGFpbFZpZXcuYXNweD9JdGVtTm89RTM2NjMyMzE4OCZmcm0zPVYy&encode=on "https://s.ppomppu.co.kr/?idno=ppomppu_540524&target=ahr0cdovl2l0zw1wywdlmy5hdwn0aw9ulmnvlmtyl0rldgfpbfzpzxcuyxnwed9jdgvttm89rtm2njmymze4oczmcm0zpvyy&encode=on")
 - [ ] [인프런_스프링 겅부](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8)
+
+
+5/9
+- [ ] 사전예약 flow 꼼꼼히보기
+- [ ] redis 오류나는거 해결하쟈
+
+
 
 - 참조
 Grails korean - [http://dogfeet.github.io/grails-doc/](http://dogfeet.github.io/grails-doc/)   
