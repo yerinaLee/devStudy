@@ -35,4 +35,9 @@
 - [ ] [키보드 ㄱㅂㅈㄱ](https://s.ppomppu.co.kr/?idno=ppomppu_540524&target=aHR0cDovL2l0ZW1wYWdlMy5hdWN0aW9uLmNvLmtyL0RldGFpbFZpZXcuYXNweD9JdGVtTm89RTM2NjMyMzE4OCZmcm0zPVYy&encode=on](https://s.ppomppu.co.kr/?idno=ppomppu_540524&target=aHR0cDovL2l0ZW1wYWdlMy5hdWN0aW9uLmNvLmtyL0RldGFpbFZpZXcuYXNweD9JdGVtTm89RTM2NjMyMzE4OCZmcm0zPVYy&encode=on "https://s.ppomppu.co.kr/?idno=ppomppu_540524&target=ahr0cdovl2l0zw1wywdlmy5hdwn0aw9ulmnvlmtyl0rldgfpbfzpzxcuyxnwed9jdgvttm89rtm2njmymze4oczmcm0zpvyy&encode=on")
 - [ ] [인프런_스프링 겅부](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81-%EC%9E%85%EB%AC%B8-%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8)
 
+- 참조
+Grails korean - [http://dogfeet.github.io/grails-doc/](http://dogfeet.github.io/grails-doc/)   
+JPA 연구. - [https://ict-nroo.tistory.com/117?category=826875](https://ict-nroo.tistory.com/117?category=826875)   
+[https://www.youtube.com/watch?v=WfrSN9Z7MiA&list=PL9mhQYIlKEhfpMVndI23RwWTL9-VL-B7U](https://www.youtube.com/watch?v=WfrSN9Z7MiA&list=PL9mhQYIlKEhfpMVndI23RwWTL9-VL-B7U)
+
 [[그라나도 사전예약건(~7월 초)]]
