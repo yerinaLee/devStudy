@@ -119,3 +119,7 @@ ex) 서버(트래픽) 최소 3000 ~ (좀 많음? 8천) ~ 최대 4만
 2. **Memcache** - 각각의 frontEnd(JCGF)에 local cache 용도로 사용되며 backend 호출량을 줄이기 위하여(1분 정도) 잦은 호출이 발생하는 page는 Memcache 를 사용하여 호출 빈도를 줄인다.
     
 3. **Redis** - Azure Redis 를 공통적으로 사용하며 각서버에서 동일한 변수 사용 혹은 session 정보 저장 용도로 사용되고 있다.
+
+![[Items.png]]
+
+
