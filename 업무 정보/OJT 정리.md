@@ -113,7 +113,7 @@ ex) 서버(트래픽) 최소 3000 ~ (좀 많음? 8천) ~ 최대 4만
 
 ## 캐시
 
-1. **CDN** - 정적 파일(HTML, css, js 등등) 을 naver cdn 에서 각 리전별 cache 를 하여 응답을 보내며 수정이 발생 시 purge 작업을 한다.  
+1. **CDN** - 정적 파일(HTML, css, js 등등) 을 naver cdn 에서 각 리전별 cache 를 하여 응답을 보내며 수정이 발생 시 [[purge]] 작업을 한다.  
     개발자가 특별히 신경 쓸 부분은 없다.
     
 2. **Memcache** - 각각의 frontEnd(JCGF)에 local cache 용도로 사용되며 backend 호출량을 줄이기 위하여(1분 정도) 잦은 호출이 발생하는 page는 Memcache 를 사용하여 호출 빈도를 줄인다.
