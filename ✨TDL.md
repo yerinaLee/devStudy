@@ -5,7 +5,7 @@
 - [ ] 파일질라 설치 및 개인키 등록 & 연결 테스트
 - [ ] 백엔) 아마도,,, [런디버그 어쩌구](https://dev.azure.com/jeffkang/ht-devOps/_wiki/wikis/ht-devOps.wiki/900/BackEnd-Project-Setting(Temp))를 해야할 것 
 
-
+깃헙~~~~
 
 - [ ] 근로계약서 작성하기 -> 송부
 - [ ] 아웃룩 how?
