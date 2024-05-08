@@ -20,7 +20,7 @@
 1) jcgf (front) : a.k.a. **web** 
 2) happycode (back) : a.k.a. **web-API**
 	특이사항 : happycode 소스를 게임 서버와 L7에서도 같이 씀!
-			게임쪽에서 쓰는 happycode는 **Game API** 라고 부름
+			게임쪽에서 쓰는 happyc ode는 **Game API** 라고 부름
 
 ## 운영업무
 
