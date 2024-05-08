@@ -20,9 +20,11 @@
 - [[OJT 정리]]
 
 5/8
-- [ ] OJT 정리 마무ㅡ리
+- [x] OJT 정리 마무ㅡ리
 - [ ] 어제몬한거! Flow 정리하기
-- [ ] ㄴ위키 찾아보기
+- [x] ㄴ위키 찾아보기
+	[사전예약_위키](https://dev.azure.com/jeffkang/ht-devOps/_wiki/wikis/ht-devOps.wiki/423/1)
+
 - [ ] HeidiSQL 사용방법 익히기
 - [ ] redis 겅부
 
