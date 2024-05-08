@@ -73,3 +73,6 @@
 ## 인프라
 
 - QA쪽 IP를 주로 본다고 생각~ 10.100.100.5
+- Dmode TEST(dev용) / live(production)
+- 메일확인
+- 로그인 session : Tomcat에서 Redis.jar 있음 / context.xml에서 레디스 가져옴
