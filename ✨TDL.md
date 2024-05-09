@@ -3,7 +3,8 @@
 - [ ] 아웃룩으로 인증번호 넘어오면 그걸로 암호저장하면 VPN 연결댐 (FortiClient VPN)
 - [ ] mRemote 설치 & ssh 연결 서버 등록
 - [ ] 파일질라 설치 및 개인키 등록 & 연결 테스트
-- [ ] 백엔) 아마도,,, [런디버그 어쩌구](https://dev.azure.com/jeffkang/ht-devOps/_wiki/wikis/ht-devOps.wiki/900/BackEnd-Project-Setting(Temp))를 해야할 것 
+- [ ] 백엔) 인텔리제이 아마도,,, [런디버그 어쩌구 설정](https://dev.azure.com/jeffkang/ht-devOps/_wiki/wikis/ht-devOps.wiki/900/BackEnd-Project-Setting(Temp))를 해야할 것 
+
 
 - [ ] 근로계약서 작성하기 -> 송부
 - [ ] 아웃룩 how?
@@ -35,9 +36,11 @@
 
 
 5/9
-- [ ] 사전예약 flow 꼼꼼히보기
-- [ ] redis 오류나는거 해결하쟈
+- [x] 사전예약 flow 꼼꼼히보기
+- [ ] ㄴget요청 완료까지봄. 내일 로그인 부분 보면될듯!
+- [x] redis 오류나는거 해결하쟈
 - [ ] 즐겨찾기 정리해놓기
+- [x] scouter 설치
 
 
 - 참조
