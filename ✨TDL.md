@@ -51,13 +51,3 @@ JPA 연구. - [https://ict-nroo.tistory.com/117?category=826875](https://ict-nr
 
 Q. src/com/hc 폴더명의 뜻..?
 
-
-
-- scouter 서버 1번은 open VPI라서 아직 안붙음\\\
-
-
-
-
-서버당 4~7000
-2~4만? 공격의심~
-
