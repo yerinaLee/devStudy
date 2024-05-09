@@ -40,10 +40,14 @@
 - [ ] 즐겨찾기 정리해놓기
 
 
-
 - 참조
 Grails korean - [http://dogfeet.github.io/grails-doc/](http://dogfeet.github.io/grails-doc/)   
 JPA 연구. - [https://ict-nroo.tistory.com/117?category=826875](https://ict-nroo.tistory.com/117?category=826875)   
 [https://www.youtube.com/watch?v=WfrSN9Z7MiA&list=PL9mhQYIlKEhfpMVndI23RwWTL9-VL-B7U](https://www.youtube.com/watch?v=WfrSN9Z7MiA&list=PL9mhQYIlKEhfpMVndI23RwWTL9-VL-B7U)
 
 [[그라나도 사전예약건(~7월 초)]]
+
+
+
+Q. src/com/hc 폴더명의 뜻..?
+
