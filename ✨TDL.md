@@ -50,4 +50,6 @@ JPA 연구. - [https://ict-nroo.tistory.com/117?category=826875](https://ict-nr
 
 
 Q. src/com/hc 폴더명의 뜻..?
+sqlmaps .xml이랑 DAO랑 연결되어있다는건 어디서알더라..^^....
+
 
