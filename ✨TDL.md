@@ -4,6 +4,7 @@
 - [ ] mRemote 설치 & ssh 연결 서버 등록
 - [ ] 파일질라 설치 및 개인키 등록 & 연결 테스트
 - [ ] 백엔) 인텔리제이 아마도,,, [런디버그 어쩌구 설정](https://dev.azure.com/jeffkang/ht-devOps/_wiki/wikis/ht-devOps.wiki/900/BackEnd-Project-Setting(Temp))를 해야할 것 
+- [ ] [멤캐시드 설치](https://dev.azure.com/jeffkang/ht-devOps/_wiki/wikis/ht-devOps.wiki/765/Memcached-%EC%84%A4%EC%B9%98)
 
 
 - [ ] 근로계약서 작성하기 -> 송부
