@@ -1,13 +1,13 @@
 
-- [ ] Forticlient VPN 등록하기 (승인확인~)
-- [ ] 아웃룩으로 인증번호 넘어오면 그걸로 암호저장하면 VPN 연결댐 (FortiClient VPN)
+- [x] Forticlient VPN 등록하기 (승인확인~)
+- [x] 아웃룩으로 인증번호 넘어오면 그걸로 암호저장하면 VPN 연결댐 (FortiClient VPN)
 - [ ] mRemote 설치 & ssh 연결 서버 등록
 - [ ] 파일질라 설치 및 개인키 등록 & 연결 테스트
 - [ ] 백엔) 인텔리제이 아마도,,, [런디버그 어쩌구 설정](https://dev.azure.com/jeffkang/ht-devOps/_wiki/wikis/ht-devOps.wiki/900/BackEnd-Project-Setting(Temp))를 해야할 것 
 
 
 - [ ] 근로계약서 작성하기 -> 송부
-- [ ] 아웃룩 how?
+- [x] 아웃룩 how?
 
 - [ ] 게임 외우기
 
@@ -44,7 +44,7 @@
 
 
 5/10
-- [ ] 어제보다 남은거 보기
+- [x] 어제보다 남은거 보기
 - [ ] 인텔리제이 런디버그 설정하기!
 - [x] 가입데이터 추출 적용. 배포 첨해봄 우와....
 
