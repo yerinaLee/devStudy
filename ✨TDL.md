@@ -36,7 +36,7 @@
 
 5/9
 - [x] 사전예약 flow 꼼꼼히보기
-- [ ] ㄴget요청 완료까지봄. 내일 로그인 부분 보면될듯!
+- [x] ㄴget요청 완료까지봄. 내일 로그인 부분 보면될듯!
 - [x] redis 오류나는거 해결하쟈
 - [x] 즐겨찾기 정리해놓기
 - [x] scouter 설치
@@ -60,7 +60,7 @@ JPA 연구. - [https://ict-nroo.tistory.com/117?category=826875](https://ict-nr
 
 
 
-Q. src/com/hc 폴더명의 뜻..?
+~~Q. src/com/hc 폴더명의 뜻..?~~ -> happycode로 추정 ㅋㅎ
 sqlmaps .xml이랑 DAO랑 연결되어있다는건 어디서알더라..^^.... 그리고 이 xml이 어느 DB랑 연결되어있는지도...^^....
 
 
