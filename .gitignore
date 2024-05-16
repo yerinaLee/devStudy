@@ -10,3 +10,5 @@ w_images/
 
 .trash/
 .DS_Store
+*.png
+*.jpg
