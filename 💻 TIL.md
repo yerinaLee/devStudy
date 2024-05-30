@@ -408,3 +408,9 @@ WAS는 웹 서버와 웹 컨테이너가 합쳐진 형태로서, 웹 서버 단�
 ## - curl 명령어
 > curl(client url) 명령어는 **프로토콜들을 이용해 URL로 데이터를 전송해 서버에 데이터를 보내거나 가져올 때 사용하기 위한 명령줄 도구 및 라이브러리**입니다.
 
+> curl(client url) 명령어는 프로토콜들을 이용해 **URL 로 데이터를 전송**하여 **서버에 데이터를 보내거나 가져올때** 사용하기 위한 명령줄 도구 및 라이브러리이다. 쉽게말해 예를들어 자바스크립트 환경에서 REST API(http)를 테스트하고싶다면 보통 ajax, fetch 를 이용해 요청을 보내는 것과 같이, **SHELL(커맨드라인 환경)에서 REST API(http) 테스트 하고 싶으면 curl 명령어를 이용**하면 된다 라고 이해하면 된다.
+
+[LINUX-📚-CURL-명령어-사용법-다양한-예제로-정리](https://inpa.tistory.com/entry/LINUX-%F0%9F%93%9A-CURL-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9%EB%B2%95-%EB%8B%A4%EC%96%91%ED%95%9C-%EC%98%88%EC%A0%9C%EB%A1%9C-%EC%A0%95%EB%A6%AC)
+
+
+
