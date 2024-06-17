@@ -513,3 +513,6 @@ WAS는 웹 서버와 웹 컨테이너가 합쳐진 형태로서, 웹 서버 단�
 >  OAuth 2.0은 1.0에서 알려진 보안 문제 등을 개선한 버젼이다.
 
 
+## - HMAC-SHA1
+> 메시지 인증 코드(Message Authentication Code, MAC)의 한 형태로, 해시 기반 메시지 인증 코드(Hash-based Message Authentication Code, HMAC)와 SHA-1(Secure Hash Algorithm 1)을 결합한 것입니다. 이를 통해 데이터의 무결성과 인증을 보장할 수 있습니다.
+
