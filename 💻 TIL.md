@@ -508,7 +508,7 @@ WAS는 웹 서버와 웹 컨테이너가 합쳐진 형태로서, 웹 서버 단�
 
 ## - OAuth
 > 프로토콜임. 인터넷 사용자들이 비밀번호를 제공하지 않고 다른 웹사이트 상의 자신들의 정보에 대해 웹사이트나 애플리케이션의 접근 권한을 부여할 수 있는 공통적인 수단으로서 사용되는, 접근 위임을 위한 개방형 표준이다.
-> [![OAuth-2.0-개념](https://blog.kakaocdn.net/dn/bHUGoo/btrm2orrAFu/CPLsbvhQnELKQEukKU7jX1/img.png)](https://blog.kakaocdn.net/dn/bHUGoo/btrm2orrAFu/CPLsbvhQnELKQEukKU7jX1/img.png)
+> [![OAuth-20img.png)](https://blog.kakaocdn.net/dn/bHUGoo/btrm2orrAFu/CPLsbvhQnELKQEukKU7jX1/img.png)
 >  요런거!
 >  OAuth 2.0은 1.0에서 알려진 보안 문제 등을 개선한 버젼이다.
 
