@@ -265,12 +265,11 @@ WAS는 웹 서버와 웹 컨테이너가 합쳐진 형태로서, 웹 서버 단�
 ### [spring 공식문서](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/servlet/ModelAndView.html)
 
 
-
-## **- CCU (Concurrent connected User, 동시 접속자)**
+## - CCU (Concurrent connected User, 동시 접속자)
  동일한 시간대에 게임 서버에 접속한 사람 수
 ## - DAU (Daily active users, 일일활성유저)
 24시간 동안 앱을 사용하는 순 유저 수
-## - **MCU**
+## - MCU
  다른 약어로는 PCCU이다.
  가장 많은 사람이 동시에 접속한 특정 시기를 기준으로 게임 서버에 접속한 사람 수
 
