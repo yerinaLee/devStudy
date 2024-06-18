@@ -170,28 +170,14 @@ name 속성을 생략하면, @Resource 어노테이션이 적용된 필드나 �
 > - Cache에 데이터를 미리 복사해 놓으면 계산이나 접근 시간 없이 더 빠른 속도로 데이터에 접근할 수 있다. 결국 **Cache란 반복적으로 데이터를 불러오는 경우에, 지속적으로 DBMS 혹은 서버에 요청하는 것이 아니라 Memory에 데이터를 저장하였다가 불러다 쓰는 것을 의미**한다.
 
 
-
 ## - Redis
 > in-memory 기반의 NoSQL로, key-value의 데이터 구조를 사용하는 데이터베이스
  - redis는 오픈소스로서 데이터베이스(NOSQL DBMS)로 분류가 되기도 하고 Memcached와 같이 인메모리 솔루션으로 분류되기도 한다.
-
-host : redis-happytuk.redis.cache.windows.net
-port 6379
-pass : z5GNcRkgF756wLLLBVc5n7YcRmGKydxVqAzCaK1Dz68=
-
-그라나다 메인 redis : ge_preSignup
-- 여기서 redis 초기 설정값 입력!
-- 승민님이 만들어놓으신 쉽게 입력하는 방법도있음~
-
-redis 사용이유? [참고!](https://dev.azure.com/jeffkang/ht-devOps/_wiki/wikis/ht-devOps.wiki/950/Cache)
-**데이터 보존 가능하여 session 등 중요 정보 저장**
-
 
 ## - Memcached
  >무료로 사용할 수 있는 오픈소스이며 분산 메모리 캐싱 시스템
  >결과 데이터를 작은 단위의 key - value 형태로 메모리에 저장하는 방식
 ### [참고 : Memcached, Redis](https://brownbears.tistory.com/43)
-
 
 
 ## -WAS / 웹서버
@@ -208,7 +194,7 @@ redis 사용이유? [참고!](https://dev.azure.com/jeffkang/ht-devOps/_wiki/wik
 
 ▲ 웹 서버 사용자 요청 처리 과정
 
-## **💡 WAS (Web Application Server)**
+## 💡 WAS (Web Application Server)
 
 > **사전적 정의  
 > "인터넷 상에서 HTTP 프로토콜을 통해 사용자 컴퓨터나 장치에 애플리케이션을 수행해주는 미들웨어로서, 주로 동적 서버 컨텐츠를 수행하는 것으로 웹 서버와 구별이 되며, 주로 데이터베이스 서버와 같이 수행"**
