@@ -520,3 +520,4 @@ WAS는 웹 서버와 웹 컨테이너가 합쳐진 형태로서, 웹 서버 단�
 > HMAC(Hash-based Message Authentication Code)와 MD5(Message Digest Algorithm 5)를 결합한 메시지 인증 코드
 > 
 > HMAC-MD5는 과거에 널리 사용되었으나, MD5 해시 함수 자체의 보안 취약점 때문에 현재는 더 안전한 해시 함수(HMAC-SHA256 등)를 사용하는 것이 권장됩니다. MD5는 충돌 공격에 취약하여 데이터의 무결성을 완벽하게 보장하지 못할 수 있으므로, 보안이 중요한 응용 프로그램에서는 사용을 피해야 합니다.
+
