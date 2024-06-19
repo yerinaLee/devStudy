@@ -520,3 +520,9 @@ WAS는 웹 서버와 웹 컨테이너가 합쳐진 형태로서, 웹 서버 단�
  telnet [호스트] [포트]
 ```
 
+## - PL/SQL (Procedural Language extension to SQL)
+>  - SQL을 확장한 절차적 언어(Procedural Language)
+>  - Oracle의 표준 데이터 엑세스 언어, 프로시저 생성자를 SQL과 완벽하게 통합
+>  - 유저 프로세스가 PL/SQL 블록을 보내면, 서버 프로세서는 PL/SQL Engine에서 해당 블록을 받고 SQL과 Procedural를 나눠서 SQL은 SQL Statement Executer로 보낸다.
+>  - PL/SQL 프로그램의 종류는 크게 Procedure, Function, Trigger 로 나뉘어 진다.
+>  - 오라클에서 지원하는 프로그래밍 언어의 특성을 수용하여 SQL에서는 사용할수없는 절차적 프로그래밍 기능을 가지고 있어 SQL의 단점을 보완하였다.
