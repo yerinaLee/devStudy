@@ -543,4 +543,28 @@ WAS는 웹 서버와 웹 컨테이너가 합쳐진 형태로서, 웹 서버 단�
 
 ## - JPA (Java Persistence API)
 > JPA는 자바의 ORM기술을 쉽게 구현하도록 도와주는 API이다.
+> ex) **1. 엔티티 클래스 정의**
+> **데이터베이스 테이블과 매핑될 엔티티 클래스를 정의**한다. 이때, 엔티티 클래스는 @Entity 어노테이션을 이용하여 정의한다. 예를 들어, 다음과 같이 User 엔티티 클래스를 정의할 수 있다.
 
+```
+@Entity // 엔티티 클래스임을 선언.
+@Table(name = "users") // 해당 엔티티 클래스와 매핑될 데이터베이스 테이블 이름을 지정.
+public class User {
+
+  @Id // 엔티티 클래스의 주요 식별자(primary key)임을 선언
+  @GeneratedValue(strategy = GenerationType.IDENTITY) // 엔티티의 식별자 값을 자동으로 생성
+  private Long id;
+
+  // 해당 엔티티 클래스의 필드가 데이터베이스의 칼럼으로 매핑될 때,
+  // 해당 칼럼의 제약 조건을 설정하는 어노테이션입니다. (널허용 = x 등)
+  @Column(nullable = false, unique = true) 
+  private String username;
+
+  @Column(nullable = false)
+  private String password;
+
+  // getters and setters
+}
+```
+
+출처: [https://ccomccomhan.tistory.com/131](https://ccomccomhan.tistory.com/131) [[꼼꼼한 개발자] 꼼코더:티스토리]
