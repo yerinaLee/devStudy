@@ -568,3 +568,6 @@ public class User {
 ```
 
 출처: [https://ccomccomhan.tistory.com/131](https://ccomccomhan.tistory.com/131) [[꼼꼼한 개발자] 꼼코더:티스토리]
+
+## - binary
+> "binary"는 실행 가능한 프로그램 파일 또는 컴퓨터가 직접 실행할 수 있는 형태로 컴파일된 소프트웨어를 의미합니다. 소스 코드가 사람이 읽을 수 있는 형태라면, 바이너리는 컴퓨터가 이해할 수 있는 기계어 형태입니다.
