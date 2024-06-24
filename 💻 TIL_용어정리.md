@@ -584,4 +584,9 @@ public class User {
 >`/etc/hosts`
 
 
-## - blob
+## - blob (Binary Large Object)
+> "Blob"은 "Binary Large Object"의 약자로, 대용량 이진 데이터를 의미합니다. 주로 데이터베이스나 파일 시스템에서 텍스트가 아닌 대용량 데이터를 저장할 때 사용됩니다. 블롭은 이미지, 비디오, 오디오 파일 등과 같은 다양한 형태의 데이터를 포함할 수 있습니다.
+> 
+> 리눅스 데이터를 Blob에 백업한다는 것은, 리눅스 시스템의 데이터를 Blob 스토리지에 저장하는 것을 의미합니다. Blob 스토리지는 클라우드 서비스 제공자(예: AWS, Azure, Google Cloud)에서 제공하는 대용량 데이터 저장소입니다.
+
+
