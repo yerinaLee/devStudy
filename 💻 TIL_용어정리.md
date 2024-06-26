@@ -598,3 +598,19 @@ public class User {
 
 ## - JSONView
 > JSONView는 웹 브라우저 확장 프로그램으로, JSON (JavaScript Object Notation) 데이터를 보다 쉽게 읽고 탐색할 수 있게 해주는 도구입니다.
+```JSONViewEx
+{
+  "albumName" : "albumName",
+  "representSinger" : {
+    "nickname" : "singerNickname"
+  },
+
+  "tracks" : [ {
+    "trackTitle" : "No.1 Track",
+    "trackNo" : "1",
+    "genre" : "genre"
+  } ]
+}
+```
+
+
