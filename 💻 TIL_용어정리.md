@@ -618,7 +618,5 @@ public class User {
 > - 메모리(RAM)으로 불러들이는 작업을 Swap-In, 보조 기억 장치로 이동시키는 작업을 Swap-out
 > - swap 에는 큰 디스크 전송 시간이 필요하기 때문에 현재에는 메모리 공간이 부족할 때 swapping 이 시작됨.
 
-
-## - DNS 흐름
-![ggf.png](https://dev.azure.com/jeffkang/c7fa7cf4-3646-4a12-922d-4a43cae15861/_apis/git/repositories/f57dcf48-f623-4e6c-802a-06f899f38955/Items?path=/.attachments/ggf-f34ec742-a43b-4169-b614-7d5ab7b51502.png&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster)
-
+## - 분산 락(distributed lock)
+> 분산 시스템 환경에서 여러 프로세스나 노드가 동일한 자원에 동시에 접근하는 것을 제어하기 위해 사용되는 락 메커니즘입니다. 분산 락을 통해 자원에 대한 동시 접근을 방지하여 데이터 일관성을 유지하고 충돌을 방지할 수 있습니다.
