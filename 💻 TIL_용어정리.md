@@ -619,3 +619,6 @@ public class User {
 > - swap 에는 큰 디스크 전송 시간이 필요하기 때문에 현재에는 메모리 공간이 부족할 때 swapping 이 시작됨.
 
 
+## - DNS 흐름
+![ggf.png](https://dev.azure.com/jeffkang/c7fa7cf4-3646-4a12-922d-4a43cae15861/_apis/git/repositories/f57dcf48-f623-4e6c-802a-06f899f38955/Items?path=/.attachments/ggf-f34ec742-a43b-4169-b614-7d5ab7b51502.png&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster)
+
