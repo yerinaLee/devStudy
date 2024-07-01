@@ -630,8 +630,6 @@ public class User {
 > 이것이 **분산락** 입니다.
 ![](https://velog.velcdn.com/images/a01021039107/post/f1790e65-6596-4678-b053-7f3c465cebf7/image.png)  락을 획득한 프로세스, 스레드만이 Critical Section 에 접근할 수 있다.
 
-
-
 ## - Hibernate
 > Java 애플리케이션에서 관계형 데이터베이스와의 객체-관계 매핑(Object-Relational Mapping, ORM)을 지원하는 오픈 소스 프레임워크
 
@@ -646,4 +644,7 @@ public class User {
 > Inbound는 외부 네트워크에서 내부 네트워크로 향하는 트래픽을 의미합니다.
 > 즉, "inbound를 열어놓는다"는 것은 외부에서 내부 네트워크로의 접근을 허용한다는 뜻
 > 일반적으로 네트워크 보안에서는 inbound 트래픽을 더 엄격하게 통제
+
+## - Bypass(우회)
+> 네트워크 보안 관점에서 보안 장비나 보안 정책을 피해 통신하는 것을 의미
 
