@@ -632,5 +632,5 @@ public class User {
 
 
 
-
-
+## - Hibernate
+> Java 애플리케이션에서 관계형 데이터베이스와의 객체-관계 매핑(Object-Relational Mapping, ORM)을 지원하는 오픈 소스 프레임워크
