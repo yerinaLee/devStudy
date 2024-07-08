@@ -1,3 +1,8 @@
+- **메세지 UI** 
+```
+https://adaptivecards.io/samples/ActivityUpdate.html
+```
+
 MS의 Adaptive Cards를 카카오톡과 연동시킬 수 있어?
 
 네, MS의 Adaptive Cards를 카카오톡과 연동시킬 수 있습니다. Adaptive Cards는 다양한 플랫폼과 애플리케이션에서 사용될 수 있는 표준화된 방식으로 UI를 구성하는 도구입니다.
