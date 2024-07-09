@@ -652,3 +652,6 @@ public class User {
 ## - CORS (Cross-Origin Resource Sharing)
 > "교차 출처 리소스 공유 정책"이라고 해석할 수 있는데, 여기서 **교차 출처**라고 하는 것은 **(엇갈린) 다른 출처**를 의미하는 것으로 보면 된다.
 
+## - tar 파일
+>  tar는 리눅스의 대표적인 압축 프로그램이다
+
