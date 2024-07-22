@@ -686,3 +686,6 @@ public class User {
 
 ## - render
 > 서버에서 렌더링이라는 의미는 뷰 템플릿으로 HTML을 생성하는 것으로 이해하시면 됩니다.
+
+
+## - UUID ()
