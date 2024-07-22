@@ -685,7 +685,8 @@ public class User {
 
 
 ## - render
-> 서버에서 렌더링이라는 의미는 뷰 템플릿으로 HTML을 생성하는 것으로 이해하시면 됩니다.
+> - 서버에서 렌더링이라는 의미는 뷰 템플릿으로 HTML을 생성
+> - Grails 컨트롤러 메서드에서 HTTP 응답을 생성하는 데 사용되는 메서드
 
 
 ## - UUID (Universally Unique IDentifier / 범용고유식별자)
