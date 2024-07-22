@@ -147,3 +147,59 @@ Grails에서 `def` 키워드를 사용하여 메소드와 변수를 선언할 �
 - Grails와 같은 프레임워크는 이러한 매핑 테이블을 자동으로 생성하고 관리합니다.
 
 
+## - createCriteria (select)
+`GORM` (Grails Object Relational Mapping)에서 `createCriteria`는 데이터베이스 쿼리를 작성하는 데 사용되는 메서드로, Groovy 기반의 DSL(Domain-Specific Language)을 사용하여 객체 지향 방식으로 쿼리를 생성할 수 있게 해줍니다. `createCriteria`를 사용하면 복잡한 쿼리를 쉽게 작성할 수 있으며, 데이터베이스의 특정 조건에 맞는 데이터를 검색할 수 있습니다.
+```groovy
+def results = CouponTitle.createCriteria().list {
+    eq("title", "Special Offer")
+}
+```
+여기서:
+- `eq("title", "Special Offer")`는 `title` 컬럼이 "Special Offer"와 일치하는 레코드를 검색합니다.
+- `list` 메서드는 조건에 맞는 레코드 목록을 반환합니다.
+
+
+- `eq`: equals, 특정 값과 일치
+- `ne`: not equals, 특정 값과 일치하지 않음
+- `gt`: greater than, 특정 값보다 큼
+- `ge`: greater than or equal, 특정 값보다 크거나 같음
+- `lt`: less than, 특정 값보다 작음
+- `le`: less than or equal, 특정 값보다 작거나 같음
+- `like`: 부분 일치
+- `ilike`: 대소문자 구분 없이 부분 일치
+- `between`: 두 값 사이
+- `inList`: 목록에 포함
+
+## - save (insert / update), delete
+
+**데이터 삽입 (Insert)**
+새로운 객체를 데이터베이스에 삽입하려면 `save()` 메서드를 사용합니다.
+```groovy
+def newCoupon = new CouponTitle(title: "New Year Sale", date: new Date())
+newCoupon.save()
+```
+이 코드는 새로운 `CouponTitle` 객체를 생성하고, 이를 데이터베이스에 저장합니다.
+
+
+**데이터 수정 (update)**
+```groovy
+def coupon = CouponTitle.findById(1)
+if (coupon) {
+    coupon.title = "Updated Title"
+    coupon.save()
+}
+```
+이 코드는 `id`가 1인 `CouponTitle` 객체를 조회하고, `title` 값을 수정한 후, 이를 데이터베이스에 저장합니다.
+
+
+**데이터 삭제 (Delete)**
+객체를 삭제하려면 `delete()` 메서드를 사용합니다.
+```groovy
+def coupon = CouponTitle.findById(1)
+if (coupon) {
+    coupon.delete()
+}
+```
+이 코드는 `id`가 1인 `CouponTitle` 객체를 데이터베이스에서 삭제합니다.
+
+
