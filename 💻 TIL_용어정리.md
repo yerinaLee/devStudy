@@ -703,4 +703,5 @@ public class User {
 
 ## - OOM Killer 란?
 > Out Of Memory Killer 의 약자로 메모리가 부족할 경우 특정 프로세스를 강제로 종료시킵니다.
+> 참고 : https://hbase.tistory.com/319
 
