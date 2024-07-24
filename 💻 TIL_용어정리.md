@@ -709,3 +709,4 @@ public class User {
 
 ## - PEM(Privacy Enhanced Mail)
 > 각종 인증 및 비대칭키 암호화 알고리즘에서 사용되는 비밀키, 인증서 등을 텍스트 형식으로 직렬화하여 저장하기 위한 파일 포맷.
+> Base64 로 인코딩한 텍스트 형식의 파일
