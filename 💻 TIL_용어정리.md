@@ -706,3 +706,6 @@ public class User {
 
 ## - Logrotate
 > Logrotate의 기능은 기본적으로 log가 많이 쌓이게 되는걸 방지하기 위해 주기적으로 log를 삭제 및 정리하는 기능을 갖고있습니다
+
+## - PEM(Privacy Enhanced Mail)
+> 각종 인증 및 비대칭키 암호화 알고리즘에서 사용되는 비밀키, 인증서 등을 텍스트 형식으로 직렬화하여 저장하기 위한 파일 포맷.
