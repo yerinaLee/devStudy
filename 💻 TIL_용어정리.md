@@ -732,3 +732,7 @@ public class User {
 
 ## - revert, reset (git)
 > reset은 커밋 내역을 남겨두지 않고 모두 삭제하며 이전으로 돌아가는 것이고, revert는 커밋 내역을 삭제하지 않은 채 이전으로 돌아가는 것이다.
+
+## - tld
+> `tld` 는 Java 웹 애플리케이션에서 태그 라이브러리 정의 파일(Tag Library Descriptor)을 의미합니다. 이는 JSP(JavaServer Pages) 페이지에서 커스텀 태그를 정의하고 사용할 수 있도록 도와주는 XML 파일입니다.
+
