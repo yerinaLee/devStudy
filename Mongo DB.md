@@ -96,19 +96,16 @@ Humongous DB ▪ Document DB : BSON(Binary JSON) ▪ Auto Sharding ▪ Replica S
 
 Aggregation --> Embedded Document
 
-1:N 처리 방법
 
-embedded , link 결정 시 체크
+### embedded , link 결정 체크분기
 ![[Pasted image 20240805135346.png]]
 
 방법 1) embedded : 자식 객체가 단독으로 사용되지 않고 부모객체 내에서만 사용될 때 사용.
 
 - 예) 주문 정보와 주문 세부 항목 정보
-    
 - 한번의 Read로 필요한 정보 모두를 읽어옴 → 읽기 성능 향상
-    
 - Strong Association
-    
+
 
 방법 2) linked : 자식객체가 부모객체와는 별개로 단독으로 사용될 때 적용
 
@@ -117,7 +114,7 @@ embedded , link 결정 시 체크
 - 예) 상품 분류 정보와 상품 정보
 
 -상품분류별 상품 정보들을 조회하려면 여러번 Read를 해야 함. → 읽기 성능 저하
-
 -데이터 일관성이 상대적으로 중요할 때 사용
-
 -Weak Association
+
+
