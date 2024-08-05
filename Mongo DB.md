@@ -22,3 +22,9 @@ mongoTemplate 사용법
 - memory mapped file으로 파일 엔진 DB이다. 메모리 관리를 OS에게 위임한다. 메모리에 의존적, 메모리 크기가 성능을 좌우한다.
 
 ---
+
+![](https://velog.velcdn.com/images%2Fswhan9404%2Fpost%2Ffb7b9b0d-7b7d-4ab6-ab4a-cd19c4602280%2Fimage.png)
+
+![](https://velog.velcdn.com/images%2Fswhan9404%2Fpost%2Ff78649a4-b216-4814-91d6-398deb309dcd%2Fimage.png)
+
+
