@@ -736,3 +736,8 @@ public class User {
 ## - tld
 > `tld` 는 Java 웹 애플리케이션에서 태그 라이브러리 정의 파일(Tag Library Descriptor)을 의미합니다. 이는 JSP(JavaServer Pages) 페이지에서 커스텀 태그를 정의하고 사용할 수 있도록 도와주는 XML 파일입니다.
 
+
+## - Mapreduce, Hadoop
+> 맵리듀스는 여러 노드에 태스크를 분배하는 방법으로 각 노드 프로세스 데이터는 가능한 경우, 해당 노드에 저장됩니다. 맵리듀스 태스크는 맵(Map)과 리듀스(Reduce) 총 두단계로 구성됩니다. 
+> 하둡에서는 계산시, 큰 파일을 블럭단위로 나누고 모든 블럭은 같은 Map 작업을 수행하고 이후 Reduce 작업을 수행하게 됩니다.
+
