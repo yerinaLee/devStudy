@@ -22,7 +22,6 @@ Connection은 물리적인 coummunication 채널이고 **session은 client가 S
 
 
 
-
 ## Transaction
 
 > A transaction is a sequence of one or more SQL operations that are treated as a unit.
