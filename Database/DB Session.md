@@ -21,3 +21,23 @@ Connection은 물리적인 coummunication 채널이고 **session은 client가 S
 
 
 
+
+
+## Transaction
+
+> A transaction is a sequence of one or more SQL operations that are treated as a unit.
+
+**어떠한 하나의 기능을 수행하는 SQL문이라고 생각하면쉽다**. 각 트랜젝션은 외부와 고립된 상태로 수행되며, 만약 **시스템 실패**시 각 트랜젝션은 **성공**과 **실패** 값만 가지게 된다.
+
+**트랜젝션의 개념은 크게 2가지의 근심에서부터 정의되었다.**  
+🤔첫번째, 여러 클라이언트들이 데이터베이스에 동시에 접속을 한다면?  
+🤔두번째, 만약 데이터 입출력과정에서 시스템이 실패한다면?
+
+이러한 두가지 상황에서부터 데이터를 보존하기위해 위해 ⚡️**ACID** 라는 특성을 가지고 있다.
+
+A: **Atomicity** (원자성)  
+C: **Consistency** (일관성)  
+I: **Isolation** (고립성)  
+D: **Durability** (내구성)
+
+
