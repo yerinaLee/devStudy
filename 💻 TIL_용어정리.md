@@ -765,3 +765,8 @@ public class User {
 
 
 
+## - quartz
+> **Quartz**는 **Job Scheduling**라이브러리이다. Job은 주로 대용량의 데이터를 처리하는 배치 작업이나 프로세스를 의미하고, Scheduling은 특정한 시간이나 이벤트 발생 등의 조건을 만족할 시 Job을 자동으로 실행하는 것을 의미한다.
+
+
+
