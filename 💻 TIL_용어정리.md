@@ -813,5 +813,7 @@ public class User {
 ## 서블릿 컨테이너(Servlet Container)
 > 서블릿들의 생성, 실행, 파괴를 담당한다.  서블릿들을 위한 상자(Container)입니다.
 > 서블릿 컨테이너는 구현되어 있는 servlet 클래스의 규칙에 맞게 서블릿은 관리
+> 클라이언트에서 요청을 하면 컨테이너는 HttpServletRequest, HttpServletResponse 두 객체를 생성하며 GET,POST여부에 따라 동적인 페이지를 생성하여 응답을 보냅니다.
+> 클라이언트의 요청(Request)을 받아주고 응답(Response)할 수 있게, 웹서버와 소켓으로 통신하며 대표적인 예로 **톰캣(Tomcat)**이 있습니다. 톰캣은 실제로 웹 서버와 통신하여 JSP(자바 서버 페이지)와 Servlet이 작동하는 환경을 제공해줍니다.
 
 
