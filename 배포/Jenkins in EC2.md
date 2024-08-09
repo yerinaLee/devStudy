@@ -46,3 +46,14 @@ A. 네, 가능해요! 첫 번째 EC2 인스턴스에 있는 코드를 두 번째
 
 
 ---
+
+
+
+
+![](https://blog.kakaocdn.net/dn/neeED/btrXbtjWnuL/rK7n25rFtFD8LtcCkQRXaK/img.png)
+
+
+
+
+
+
