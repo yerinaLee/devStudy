@@ -815,5 +815,15 @@ public class User {
 > 서블릿 컨테이너는 구현되어 있는 servlet 클래스의 규칙에 맞게 서블릿은 관리
 > 클라이언트에서 요청을 하면 컨테이너는 HttpServletRequest, HttpServletResponse 두 객체를 생성하며 GET,POST여부에 따라 동적인 페이지를 생성하여 응답을 보냅니다.
 > 클라이언트의 요청(Request)을 받아주고 응답(Response)할 수 있게, 웹서버와 소켓으로 통신하며 대표적인 예로 **톰캣(Tomcat)**이 있습니다. 톰캣은 실제로 웹 서버와 통신하여 JSP(자바 서버 페이지)와 Servlet이 작동하는 환경을 제공해줍니다.
+> ### 서블릿 컨테이너가 관리하는 서블릿
+ 서블릿 컨테이너가 흐름을 제어한다. 즉 IoC(Inversion of Control)가 일어난다. 
+ > ![](https://velog.velcdn.com/images%2Fyoho98%2Fpost%2F1cb3e791-58be-4fea-9f88-1f0f6b0175ee%2F%EC%84%9C%EB%B8%94%EB%A6%BF%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0%202.png)
+>1. Servlet Request, Servlet Response 객체를 생성합니다.  
+>2. 설정 파일을 참고하여 매핑할 Servlet을 확인합니다.
+>3. 해당 서블릿 인스턴스 존재의 유무를 확인하여 없으면 init() 메소드(한번만 실행됨)를 호출하여 생성합니다.
+>4. . Servlet Container에 스레드를 생성하고 service를 실행합니다.
+>5. 응답을 처리하였으면 distory() 메소드를 실행하여(한번만 실행됨) Servlet Request, Servlet Response 객체를 소멸합니다. 서블릿 소멸 시 Garbage Collection(가비지 컬렉션)이 진행됩니다.
+
+
 
 
