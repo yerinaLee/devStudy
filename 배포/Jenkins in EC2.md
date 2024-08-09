@@ -5,6 +5,11 @@
 [AWS EC2에서 Jenkins 자동배포 구축하기 (1)](https://akku-dev.tistory.com/46)
 
 
+[# EC2에 젠킨스를 설치하고 배포 자동화하기](https://velog.io/@sdsd0908/EC2%EC%97%90-%EC%A0%A0%ED%82%A8%EC%8A%A4%EB%A5%BC-%EC%84%A4%EC%B9%98%ED%95%98%EA%B3%A0-%EB%B0%B0%ED%8F%AC-%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0)
+
+
+
+
 ---
 
 Q. EC2 를 2개를 만들어서, 첫번째 EC2에 있는 코드 내용을 두 번째 EC2에 설치된 Jenkins로 배포하는게 가능해?
