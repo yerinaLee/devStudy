@@ -14,6 +14,9 @@ kill 105621;
 ```
 
 
+- 디비버 UI로 하려면?
+- DB 우클릭 -> 도구 -> session Manager
+- 내 IP 찾아서 상태 체크하고 kill
 
 
 
