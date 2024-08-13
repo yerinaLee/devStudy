@@ -8,4 +8,12 @@
 
 ```
 SHOW FULL processlist; -- 현재 세션 목록 확인, State에서 상태 체크
+
+// kill [id입력]  
+kill 105621;
 ```
+
+
+
+
+
