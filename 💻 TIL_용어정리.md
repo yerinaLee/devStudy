@@ -843,3 +843,4 @@ public class User {
 ## - - VM, VMSS, EC2
 > **EC2 (Elastic Compute Cloud)**는 AWS에서 제공하는 가상 서버 인스턴스이며, Azure의 VM에 해당합니다.
 > - **Auto Scaling Groups**는 AWS에서 EC2 인스턴스의 자동 스케일링을 관리하는 서비스로, Azure의 VMSS와 유사합니다.
+
