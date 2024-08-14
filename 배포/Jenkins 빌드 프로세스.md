@@ -7,8 +7,7 @@
 
 - **소스 코드 관리(SCM)**: Jenkins는 소스 코드 저장소(예: Git)에서 소스 코드를 가져옵니다.
 
-- **빌드**: Jenkins는 빌드 도구(예: Maven, Gradle)를 사용하여 소스 코드를 컴파일하고, `WAR` 파일을 생성합니다. 이 과정에서 빌드 도구의 설정 파일(pom.xml, build.gradle 등)에 따라 `WAR` 파일이 패키징됩니다.
-    
+- **빌드**: Jenkins는 빌드 도구(예: Maven, Gradle)를 사용하여 소스 코드를 컴파일하고, `WAR` 파일을 생성합니다. 이 과정에서 빌드 도구의 설정 파일(pom.xml, build.gradle 등)에 따라 `WAR` 파일이 패키징됩니다.    
     - **Maven 예제**: Maven을 사용하는 경우, `pom.xml` 파일에서 `maven-war-plugin`을 사용하여 `WAR` 파일을 생성합니다.
     - **Gradle 예제**: Gradle을 사용하는 경우, `build.gradle` 파일에서 `war` 플러그인을 사용하여 `WAR` 파일을 생성합니다.
 - **결과물 저장**: 생성된 `WAR` 파일은 Jenkins의 빌드 결과물로 저장됩니다. 이 파일은 빌드의 아티팩트로서, Jenkins의 빌드 작업에서 설정한 위치(예: `C:\Jenkins\workspace\QA_JCGF\dist\ROOT.war`)에 저장됩니다.
