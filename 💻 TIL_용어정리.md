@@ -840,7 +840,13 @@ public class User {
 > DMARC는 이메일 인증 프로토콜이다. 이메일 도메인 소유자가 이메일 스푸핑으로 알려진 무단 사용에서 도메인을 보호할 수 있도록 설계되었다. DMARC의 구현 목적은 비즈니스 이메일 공격, 피싱 이메일, 이메일 사기 등 사이버 위협 행위에 도메인이 이용되지 않게 보호한다.
 
 
-## - - VM, VMSS, EC2
+## - VM, VMSS, EC2
 > **EC2 (Elastic Compute Cloud)**는 AWS에서 제공하는 가상 서버 인스턴스이며, Azure의 VM에 해당합니다.
 > - **Auto Scaling Groups**는 AWS에서 EC2 인스턴스의 자동 스케일링을 관리하는 서비스로, Azure의 VMSS와 유사합니다.
+
+
+## - serialize()
+> `serialize()` 함수는 jQuery에서 제공하는 메서드로, HTML 폼 요소(form elements) 내의 데이터를 쿼리 문자열(query string) 형식으로 직렬화(serialize)하는 데 사용됩니다.
+
+
 
