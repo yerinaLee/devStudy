@@ -849,4 +849,5 @@ public class User {
 > `serialize()` 함수는 jQuery에서 제공하는 메서드로, HTML 폼 요소(form elements) 내의 데이터를 쿼리 문자열(query string) 형식으로 직렬화(serialize)하는 데 사용됩니다.
 
 
-
+## - 맨티스
+> "맨티스"는 일반적으로 버그 추적 시스템(Bug Tracking System)이나 결함 관리 시스템(Defect Management System) 중 하나인 "MantisBT"를 줄여서 부르는 용어입니다. MantisBT는 소프트웨어 개발 프로젝트에서 발생하는 버그나 이슈를 추적하고 관리하기 위해 사용되는 오픈 소스 툴입니다.
