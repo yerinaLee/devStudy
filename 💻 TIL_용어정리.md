@@ -871,3 +871,6 @@ public class User {
 > **주로 온라인 게임에서 버그, 핵 등의 불법 프로그램, 타인 계정 도용, 다중 계정 접속 등을 통해 부당한 이득을 챙기는 행위**
 
 
+## - LLMs (Large Language Models)
+> 대규모 언어 모델(LLMs, Large Language Models)은 이미지, 텍스트 및 코드를 생성할 수 있는 능력으로 창의적인 분야에서 큰 반향을 일으켰습니다.
+
