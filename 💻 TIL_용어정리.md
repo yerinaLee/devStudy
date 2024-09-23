@@ -886,3 +886,10 @@ public class User {
 ## - bootbox
 > https://bootboxjs.com/examples.html
 > 부트스트랩 js 모달창
+
+
+## - curl
+> curl은 command URL로, 일반적인 웹브라우저가 GUI을 제공하는데 반해 curl은 명령어(command)를 통해 데이터를 송수신할 수 있도록 해주는 툴이며, CUI(Command User Interface) 형태의 웹브라우저라 해도 무방할 것이다. 또한 curl은 공개 소프트웨어로 배포되고 있으며 윈도우, 리눅스, 맥 OS X 등을 포함한 다양한 운영체제를 지원하고 있다. 
+
+
+
