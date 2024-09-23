@@ -890,6 +890,29 @@ public class User {
 
 ## - curl
 > curl은 command URL로, 일반적인 웹브라우저가 GUI을 제공하는데 반해 curl은 명령어(command)를 통해 데이터를 송수신할 수 있도록 해주는 툴이며, CUI(Command User Interface) 형태의 웹브라우저라 해도 무방할 것이다. 또한 curl은 공개 소프트웨어로 배포되고 있으며 윈도우, 리눅스, 맥 OS X 등을 포함한 다양한 운영체제를 지원하고 있다. 
+> curl 기능
+> `curl`은 다양한 기능을 제공하는 커맨드라인 도구로, 주로 데이터 전송 및 웹 요청에 사용됩니다. 주요 기능을 정리하면 다음과 같습니다:
 
-
+1. **HTTP/HTTPS 요청**: URL에 대한 GET, POST, PUT, DELETE 등의 요청을 수행할 수 있습니다.
+    - 예: `curl -X POST http://example.com/api`
+2. **응답 데이터 출력**: 웹 페이지의 HTML, JSON, XML 등 다양한 형식의 응답 데이터를 출력합니다.
+    - 예: `curl http://example.com`
+3. **HTTP 헤더 보기**: 응답의 HTTP 헤더 정보를 확인할 수 있습니다.
+    - 예: `curl -I http://example.com`
+4. **파일 다운로드**: URL에서 파일을 다운로드할 수 있습니다.
+    - 예: `curl -O http://example.com/file.zip`
+5. **POST 데이터 전송**: 폼 데이터나 JSON 데이터를 POST 요청으로 전송할 수 있습니다.
+    - 예: `curl -d "key=value" http://example.com/api`
+6. **인증 지원**: Basic, Digest, OAuth 등의 다양한 인증 방식을 지원합니다.
+    - 예: `curl -u username:password http://example.com`
+7. **쿠키 처리**: 세션 관리를 위해 쿠키를 저장하거나 전송할 수 있습니다.
+    - 예: `curl -b cookies.txt http://example.com`
+8. **프록시 지원**: 요청을 프록시 서버를 통해 보낼 수 있습니다.
+    - 예: `curl -x http://proxyserver:port http://example.com`
+9. **SSL/TLS 옵션**: SSL 인증서 검증을 비활성화하거나 특정 인증서를 사용할 수 있습니다.
+    - 예: `curl -k https://example.com`
+10. **지속적 연결**: Keep-Alive를 통해 연결을 지속할 수 있습니다.
+    
+11. **결과 저장**: 응답 데이터를 파일로 저장할 수 있습니다.
+    - 예: `curl -o output.txt http://example.com`
 
