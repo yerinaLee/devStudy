@@ -889,9 +889,7 @@ public class User {
 
 
 ## - curl
-> curl은 command URL로, 일반적인 웹브라우저가 GUI을 제공하는데 반해 curl은 명령어(command)를 통해 데이터를 송수신할 수 있도록 해주는 툴이며, CUI(Command User Interface) 형태의 웹브라우저라 해도 무방할 것이다. 또한 curl은 공개 소프트웨어로 배포되고 있으며 윈도우, 리눅스, 맥 OS X 등을 포함한 다양한 운영체제를 지원하고 있다. 
-> curl 기능
-> `curl`은 다양한 기능을 제공하는 커맨드라인 도구로, 주로 데이터 전송 및 웹 요청에 사용됩니다. 주요 기능을 정리하면 다음과 같습니다:
+> curl(client url) 명령어는 프로토콜들을 이용해 **URL 로 데이터를 전송**하여 **서버에 데이터를 보내거나 가져올때** 사용하기 위한 명령줄 도구 및 라이브러리이다. 쉽게말해 예를들어 자바스크립트 환경에서 REST API(http)를 테스트하고싶다면 보통 ajax, fetch 를 이용해 요청을 보내는 것과 같이, **SHELL(커맨드라인 환경)에서 REST API(http) 테스트 하고 싶으면 curl 명령어를 이용**하면 된다 라고 이해하면 된다.
 
 1. **HTTP/HTTPS 요청**: URL에 대한 GET, POST, PUT, DELETE 등의 요청을 수행할 수 있습니다.
     - 예: `curl -X POST http://example.com/api`
