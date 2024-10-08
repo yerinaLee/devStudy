@@ -952,5 +952,7 @@ public class User {
 
 
 
-## - TLS
-> TLS는 
+## - TLS(Transport Layer Security)
+> TLS는 인터넷에서의 정보를 암호화해서 송수신하는 프로토콜. 넷스케이프 커뮤니케이션스사가 개발한 SSL(Secure Sockets Layer)에 기반한 기술로, 국제 인터넷 표준화 기구에서 표준으로 인정받은 프로토콜이다. TCP 443 포트를 사용한다. 표준에 명시된 정식 명칭은 TLS지만 아직도 SSL이라는 용어가 많이 사용되고 있다.
+
+
