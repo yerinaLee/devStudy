@@ -1017,3 +1017,5 @@ public class User {
 
 
 
+## - INFORMATION_SCHEMA.columns
+> `INFORMATION_SCHEMA.columns`는 **데이터베이스의 메타데이터**를 저장하고 있는 뷰(View)로, **각 테이블의 열(column)에 대한 정보**를 포함하고 있어. 이 뷰를 통해 테이블 내의 열 이름, 데이터 타입, NULL 가능 여부 등을 조회할 수 있어.
