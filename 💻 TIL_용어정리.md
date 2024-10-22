@@ -1002,5 +1002,7 @@ public class User {
 > - **전 세계 분산 네트워크**: 수많은 DNS 서버가 분산되어 운영되며, 사용자가 어디에서 요청을 하든 가장 가까운 서버가 빠르게 응답해.
 
 
-## - ISP
-> 인터넷 서비스 제공자
+## - ISP (Internet Service Provider, 인터넷 서비스 제공자)
+> ISP는 세 가지의 종류가 있는데, [인터넷](https://namu.wiki/w/%EC%9D%B8%ED%84%B0%EB%84%B7 "인터넷") [통신망](https://namu.wiki/w/%ED%86%B5%EC%8B%A0%EB%A7%9D "통신망")을 보유하여 인터넷 회선과 IP할당까지 담당하는 회사와, [인터넷](https://namu.wiki/w/%EC%9D%B8%ED%84%B0%EB%84%B7 "인터넷") [통신망](https://namu.wiki/w/%ED%86%B5%EC%8B%A0%EB%A7%9D "통신망")을 보유하고 있지만, 회선만 임대하고 IP할당은 하지 않는 회선 임대료 만으로 수익을 내는 회사와, 자체적으로 보유한 [통신망](https://namu.wiki/w/%ED%86%B5%EC%8B%A0%EB%A7%9D "통신망")은 없지만, 다른 회사의 [통신망](https://namu.wiki/w/%ED%86%B5%EC%8B%A0%EB%A7%9D "통신망")을 임대받고 말 그대로 인터넷 서비스만 하는 회사도 있다.
+
+
