@@ -1011,4 +1011,9 @@ public class User {
 > - 도메인 판매 업체 (Registrar)에서 DNS 설정 변경 시, Registry로 전달
 > - 해당 원리로 TLD DNS 서버는 Registry에서 관리한다.
 
+![DNS 서버 종류 구분](https://velog.velcdn.com/images%2Fchun_gil%2Fpost%2F1fb63765-8762-4f93-a172-2d8f9fca0b54%2F210111_03.jpg)
+![DNS 예제 케이스](https://velog.velcdn.com/images%2Fchun_gil%2Fpost%2Fdcd7f9e7-9bfa-42dc-9646-5ac89ba34683%2F210111_03_2.jpg)
+출처 : https://velog.io/@chun_gil/DNS-%EC%84%9C%EB%B2%84-%EC%A0%95%EC%9D%98%EC%99%80-%EC%A2%85%EB%A5%98
+
+
 
