@@ -1006,3 +1006,9 @@ public class User {
 > ISP는 세 가지의 종류가 있는데, [인터넷](https://namu.wiki/w/%EC%9D%B8%ED%84%B0%EB%84%B7 "인터넷") [통신망](https://namu.wiki/w/%ED%86%B5%EC%8B%A0%EB%A7%9D "통신망")을 보유하여 인터넷 회선과 IP할당까지 담당하는 회사와, [인터넷](https://namu.wiki/w/%EC%9D%B8%ED%84%B0%EB%84%B7 "인터넷") [통신망](https://namu.wiki/w/%ED%86%B5%EC%8B%A0%EB%A7%9D "통신망")을 보유하고 있지만, 회선만 임대하고 IP할당은 하지 않는 회선 임대료 만으로 수익을 내는 회사와, 자체적으로 보유한 [통신망](https://namu.wiki/w/%ED%86%B5%EC%8B%A0%EB%A7%9D "통신망")은 없지만, 다른 회사의 [통신망](https://namu.wiki/w/%ED%86%B5%EC%8B%A0%EB%A7%9D "통신망")을 임대받고 말 그대로 인터넷 서비스만 하는 회사도 있다.
 
 
+## - TLD DNS Server
+> - TLD(Top-level domain), 도메인 등록 기관(Registry)에서 관리하는 서버
+> - 도메인 판매 업체 (Registrar)에서 DNS 설정 변경 시, Registry로 전달
+> - 해당 원리로 TLD DNS 서버는 Registry에서 관리한다.
+
+
