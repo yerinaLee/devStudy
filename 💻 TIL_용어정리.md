@@ -1019,3 +1019,15 @@ public class User {
 
 ## - INFORMATION_SCHEMA.columns
 > `INFORMATION_SCHEMA.columns`는 **데이터베이스의 메타데이터**를 저장하고 있는 뷰(View)로, **각 테이블의 열(column)에 대한 정보**를 포함하고 있어. 이 뷰를 통해 테이블 내의 열 이름, 데이터 타입, NULL 가능 여부 등을 조회할 수 있어.
+
+
+## - worker
+> worker는 일반적으로 특정 작업을 수행하는 프로그램이나 스레드를 의미해요. 코딩 환경에서 **worker**는 백그라운드에서 돌아가는 별도의 프로세스나 스레드로, 특정 작업(예: 데이터 처리, 이미지 불러오기 등)을 처리하는 역할을 합니다.
+> 
+> Worker Thread를 Background Thread라고 부르는 일도 있습니다. 또한 워커 쓰레드를 여러 개 보유하고 있는 장소에 주목하여 Thread Pool 이라고 부르기도 합니다.
+	출처: [https://12bme.tistory.com/377](https://12bme.tistory.com/377) [길은 가면, 뒤에 있다.:티스토리]
+
+
+
+
+
