@@ -1028,6 +1028,8 @@ public class User {
 	출처: [https://12bme.tistory.com/377](https://12bme.tistory.com/377) [길은 가면, 뒤에 있다.:티스토리]
 
 
-
+## - Cloudflare Workers
+> Cloudflare Workers는 Cloudflare에서 제공하는 **서버리스 플랫폼**으로, 네트워크의 가장 가까운 엣지(Edge)에서 JavaScript, TypeScript, WASM 같은 코드를 실행할 수 있게 해주는 서비스입니다. 즉, 서버를 직접 관리하지 않고도 전 세계적으로 분산된 데이터 센터에서 코드를 실행할 수 있는 환경을 제공해주는 거죠.
+> **Cloudflare Workers**는 웹 요청을 처리하거나 응답을 조작하는 데 주로 사용됩니다. 예를 들어, 웹 페이지 요청이 들어올 때 그 요청을 가로채서 미리 준비된 이미지나 데이터를 빠르게 제공하거나, 보안 규칙을 적용하는 등의 작업을 할 수 있습니다. 이미지 불러오기, 캐싱, API 요청 처리 등 다양한 일을 할 수 있습니다.
 
 
