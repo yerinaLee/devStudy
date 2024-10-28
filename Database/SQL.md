@@ -20,3 +20,13 @@ kill 105621;
 
 
 
+## - Count
+>    - COUNT(\*) : NULL 및 중복 값을 포함하는 행을 포함하여 SELECT 문에 의해 검색된 행을 카운트
+>    - COUNT(expression) : 컬럼이 NULL 이 아닌 값을 제외하고 카운트
+>    - COUNT(DISTINCT expression) : 컬럼이 NULL이 아닌 UNIQUE(고유)한 값만 카운트
+
+
+
+
+
+
