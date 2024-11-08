@@ -1113,3 +1113,5 @@ public class User {
 > - Endpoint는 인터페이스(사용자 조작 화면)에서 DB의 어떠한 자원에 CRDU동작을 하려고 할 때 필요한 구체적인 URL !
 
 
+
+## - VPN
