@@ -1,0 +1,11 @@
+```
+SELECT *FROM (  
+  SELECT  TABLE_NAME, COLUMN_NAME AS c_name, ORDINAL_POSITION,  
+    DATA_TYPE, IS_NULLABLE  
+  FROM    INFORMATION_SCHEMA.COLUMNS  
+  WHERE   TABLE_SCHEMA = 'happycode'  
+  ORDER BY TABLE_NAME, ORDINAL_POSITION  
+) X  
+WHERE c_name IN('create_ip','last_update_ip','ClientIp')  
+;
+```
