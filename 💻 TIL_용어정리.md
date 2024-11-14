@@ -1131,4 +1131,6 @@ public class User {
 > 포털사이트에서 검색 정보를 클릭했을 때, 해당 포털사이트에서 정보를 보여주는 방식
 
 
+## - SNMP(Simple Network Management Protocol)
+> **UDP/IP(사용자 데이터그램 프로토콜/인터넷 프로토콜)를 사용하여 이더넷 연결을 통해 네트워크 관리 작업을 수행하는 응용 계층 프로토콜**
 
