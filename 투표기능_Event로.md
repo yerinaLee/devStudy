@@ -13,7 +13,14 @@ reward_item_log
 
 ## Event 테이블
 
-Event type 에 vote를 추가 => 
+Event type 에 vote를 추가 =>  Event 도메인 수정
+```
+enum Type {  
+   GENERAL //GENERAL: general event   
+,FLASHSHOP // FLASHSHOP:for flashshop only. Ex:1111 event  
+,VOTE
+}
+```
 Start, End date
 
 
