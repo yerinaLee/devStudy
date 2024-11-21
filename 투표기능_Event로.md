@@ -13,7 +13,8 @@ reward_item_log
 
 ## Event 테이블
 
-
+Event type 에 vote를 추가 => 
+Start, End date
 
 
 ![[Pasted image 20241121094456.png]]
