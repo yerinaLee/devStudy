@@ -30,3 +30,10 @@ Start, End date
 
 ## Event에 연결되는 Reward 테이블
 
+reward (vote item)
+![[Pasted image 20241122112336.png]]
+
+vote 그룹 별(Event) 투표항목 각각 선정
+
+투표마다 조건식 추가한다면 : reward_condition
+http://qa-happycode.mangot5.com:8080/rewardCondition/index
