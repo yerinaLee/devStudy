@@ -46,3 +46,7 @@ reward_condition_params : 동적 메서드 작동시 필요한 파라미터들
 
 test ::: reward_item을 매핑 안해도 log에 쌓이는지?
 reward 작동방식 알아야
+
+
+reward_point_use_history 에 쌓을수있을듯? => 유저 투표결과~~
+
