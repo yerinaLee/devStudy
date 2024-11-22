@@ -28,25 +28,33 @@ Start, End date
 
 
 
-## Event에 연결되는 Reward 테이블
+## Reward 테이블
 
-reward (vote item)
+reward (vote item) : vote 그룹 별(Event) 투표항목 각각 등록
 ![[Pasted image 20241122112336.png]]
 
-vote 그룹 별(Event) 투표항목 각각 선정
-
-투표마다 조건식 추가한다면 : reward_condition
-http://qa-happycode.mangot5.com:8080/rewardCondition/index
-
+**컬럼 설명**
+reward_name : group_name 으로 한 투표이벤트 안에 여러 그룹 설정 가능
 level : 노출 순위
-reward_condition : 동적 메서드
+reward_condition : 동적 메서드 / 투표 조건이 있는 경우 메서드 검증거침
+(백오피스 : http://qa-happycode.mangot5.com:8080/rewardCondition/index)
+
 reward_condition_params : 동적 메서드 작동시 필요한 파라미터들
 
 
 
-test ::: reward_item을 매핑 안해도 log에 쌓이는지?
+
+test ::: reward_item을 매핑 안해도 reward_point_use_history에 쌓이는지?
+기존 코드에서 활용할 수 있는 부분들이 어디어디인지 뽑아놓기
 reward 작동방식 알아야
 
 
-reward_point_use_history 에 쌓을수있을듯? => 유저 투표결과~~
+user 투표결과 log : reward_point_use_history 에 쌓을수있을듯?
+![[Pasted image 20241122113424.png]]
+
+
+
+궁금증 : 그럼 유저별 투표횟수는 어떻게 제어하지?
+
+
 
