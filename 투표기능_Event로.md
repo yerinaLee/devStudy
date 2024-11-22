@@ -37,3 +37,12 @@ vote 그룹 별(Event) 투표항목 각각 선정
 
 투표마다 조건식 추가한다면 : reward_condition
 http://qa-happycode.mangot5.com:8080/rewardCondition/index
+
+level : 노출 순위
+reward_condition : 동적 메서드
+reward_condition_params : 동적 메서드 작동시 필요한 파라미터들
+
+
+
+test ::: reward_item을 매핑 안해도 log에 쌓이는지?
+reward 작동방식 알아야
