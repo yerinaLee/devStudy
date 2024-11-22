@@ -28,3 +28,5 @@ Start, End date
 
 
 
+## Event에 연결되는 Reward 테이블
+
