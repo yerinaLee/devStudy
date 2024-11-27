@@ -1166,6 +1166,8 @@ public class User {
 ## - Double Checked Lock Pattern
 > - 소프트웨어 디자인 패턴
 > - 락 획득 이전에 locking criterion(lock hint)을 사전 테스트하여 락획득의 오버헤드를 줄이는 방법이다.
+> - 
 > - locking criterion check가 locking이 필요하다고 판단내리는 경우에만 locking이 발생한다.
+
 
 
