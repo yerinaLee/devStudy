@@ -1171,3 +1171,14 @@ public class User {
 
 
 
+## robots.txt 설정하기
+
+> robots.txt는 검색로봇에게 사이트 및 웹페이지를 수집할 수 있도록 허용하거나 제한하는 [국제 권고안](http://www.robotstxt.org/robotstxt.html)입니다. IETF에서 2022년 9월에 이에 대한 [표준화 문서](https://www.rfc-editor.org/rfc/rfc9309)를 발행하였습니다. robots.txt 파일은 항상 사이트의 루트 디렉터리에 위치해야 하며 [로봇 배제 표준](https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B4%87_%EB%B0%B0%EC%A0%9C_%ED%91%9C%EC%A4%80)을 따르는일반 텍스트 파일로 작성해야 합니다. 네이버 검색로봇은 robots.txt에 작성된 규칙을 준수하며, 만약 사이트의 루트 디렉터리에 robots.txt 파일이 없다면 모든 콘텐츠를 수집할 수 있도록 간주합니다.
+> 다만, 별도의 웹 마스터와의 수집 조건에 대한 협약이 있는 경우, 광고주 정보 취득, 링크 미리보기 생성 등 특수한 용도의 로봇 등은 robots.txt 내의 규칙을 참조하지 않거나 완벽하게 준수하지 않을 수 있습니다. 그러므로 개인 정보를 포함하여 외부에 노출되면 안 되는 콘텐츠의 경우 이 설정 외에 로그인 기능 등 다른 방법을 통하여 보호하거나 다른 차단 방법을 사용해야 합니다.
+> ### robots.txt 위치
+> robots.txt 파일은 반드시 사이트의 루트 디렉터리에 위치해야 하며 텍스트 파일 (text/plain) 로 접근이 가능해야 합니다.
+> - 예) http://www.example.com/robots.txt
+
+
+
+
