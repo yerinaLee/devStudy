@@ -9,3 +9,5 @@ and dau.last_active is null;
 
 ARU
 
+RR
+UV
