@@ -1185,3 +1185,6 @@ public class User {
 ## 테섭
 > 테스트 서버
 
+
+## Hibernate
+> 하이버네이트는 자바 언어를 위한 ORM 프레임워크에요. JPA의 구현체로, JPA 인터페이스를 구현하며, 내부적으로 JDBC API를 사용해요.
