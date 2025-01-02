@@ -1197,3 +1197,7 @@ public class User {
 ## docker hub
 > 도커 허브(Docker Hub)는 도커 이미지를 저장하고 공유할 수 있는 공식적인 도커 이미지 저장소입니다. 개발자들은 도커 허브를 사용하여 자신의 애플리케이션 컨테이너를 생성, 저장, 관리할 수 있고, 공개 혹은 비공개로 공유할 수도 있습니다. 이를 통해 다른 개발자들은 이미지를 검색하여 해당 이미지를 기반으로 새로운 프로젝트를 시작하거나 기존 프로젝트를 개선할 수 있습니다. 
 
+
+## [WSL](https://wikidocs.net/219899#)( [Windows Subsystem for Linux](https://wikidocs.net/219899#))
+> Windows에 리눅스 운영체제를 설치할 수 있게 해준다. WSL에 우분투(Ubuntu), 오픈수세(OpenSUSE), 칼리(Kali), 데비안(Debian), 아치 리눅스(Arch Linux) 등을 설치할 수 있다.
+
