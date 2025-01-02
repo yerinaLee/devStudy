@@ -1201,3 +1201,11 @@ public class User {
 ## [WSL](https://wikidocs.net/219899#)( [Windows Subsystem for Linux](https://wikidocs.net/219899#))
 > Windows에 리눅스 운영체제를 설치할 수 있게 해준다. WSL에 우분투(Ubuntu), 오픈수세(OpenSUSE), 칼리(Kali), 데비안(Debian), 아치 리눅스(Arch Linux) 등을 설치할 수 있다.
 
+
+## DHCP(Dynamic Host Configuration Protocol) 서버
+> 네트워크에 연결된 장치에 IP 주소와 기타 관련 구성 정보를 자동으로 할당하는 프로토콜
+
+
+
+
+
