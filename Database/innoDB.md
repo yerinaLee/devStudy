@@ -1,6 +1,6 @@
 mysql은 주로 `MyISAM`, `InnoDB` 두가지 스토리지 엔진중 하나를 사용한다.
 
-MySQL 5.5 버젼 이후에는 InnoDB를 기본 스토리지 엔진으로 사용된다고 한다.
+MySQL 5.5 버젼 이후에는 InnoDB를 기본 스토리지 엔진으로 사용된다
 
 #### 1) MyISAM
 - MyISAM은 Table과 Index를 각각 다른 파일로 관리
