@@ -1227,3 +1227,8 @@ public class User {
 > 네이버에서 제공하는 서버 부하 테스트 오픈 소스 프로젝트이다.
 
 
+## TPS (transactions per second)
+> **초당 트랜잭션 수**(transactions per second, TPS)는 일반적인 관점에서 초당 특정 엔티티가 수행한 [원자 동작](https://ko.wikipedia.org/wiki/%EC%84%A0%ED%98%95%ED%99%94%EA%B0%80%EB%8A%A5%EC%84%B1 "선형화가능성")의 수를 가리킨다. 더 제한된 관점에서 이 용어는 [DBMS](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4 "데이터베이스") 벤더와 사용자 공동체가 초당 [데이터베이스 트랜잭션](https://ko.wikipedia.org/wiki/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4_%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98 "데이터베이스 트랜잭션")의 수를 가리키기 위해 사용되는 것이 보통이다.
+
+
+
