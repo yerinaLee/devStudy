@@ -1243,3 +1243,13 @@ public class User {
 >  비관적 락 pessimistic lock
 >  : 한 놈이 물고있는걸 놔줄때까지 계속 기다림. Shared Lock 공유락 또는 Exclusive Lock 배타적락을 먼저 걸고 시작함.
 
+
+## 분산 시스템 아키텍처
+> 물리적으로 분리된 여러 컴퓨터**가 네트워크를 통해 서로 협력하며, 사용자에게 하나의 통합된 시스템처럼 보이도록 동작하는 시스템
+> 
+> 예시 : 
+    - 인터넷
+    - 클라우드 컴퓨팅 (AWS, Google Cloud 등)
+    - 분산 데이터베이스 (Cassandra, MongoDB)
+    - 블록체인 시스템 (Bitcoin, Ethereum)
+    - CDN(Content Delivery Network)
