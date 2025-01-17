@@ -1253,3 +1253,10 @@ public class User {
     - 분산 데이터베이스 (Cassandra, MongoDB)
     - 블록체인 시스템 (Bitcoin, Ethereum)
     - CDN(Content Delivery Network)
+
+## 커맨드 모델
+> ==하나의 명령어를 하나의 클래스에서 처리하는 커맨드 패턴과, 커맨드 객체를 이용해 요청 파라미터를 객체에 바인딩하는 방법==을 말합니다. 커맨드 패턴은 MVC 패턴 구현에 사용되며, 하나의 명령어를 하나의 클래스에서 처리하도록 구현합니다.
+
+
+
+
