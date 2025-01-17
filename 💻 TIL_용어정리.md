@@ -1277,3 +1277,6 @@ public class User {
 ## 이벤트
 > 이벤트는 애플리케이션에서 발생하는 주요 사건이나 상태 변경 등을 나타내며, 다른 컴포넌트들에게 알림을 전달하여 처리할 수 있도록 돕는다.
 
+
+## Zero playload
+> [ZERO PAYLOAD](https://baekjungho.github.io/wiki/architecture/architecture-event-driven-system/#zero-payload) 는 이벤트 발행에 ID 와 몇 가지 정보만 넣어서 보내고 이외의 필요한 정보는 수신한 곳에서 ID 를 기반으로 API 를 호출하여 데이터를 채워서 처리하는 방식을 의미한다.
