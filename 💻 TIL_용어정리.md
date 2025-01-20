@@ -1280,3 +1280,8 @@ public class User {
 
 ## Zero playload
 > [ZERO PAYLOAD](https://baekjungho.github.io/wiki/architecture/architecture-event-driven-system/#zero-payload) 는 이벤트 발행에 ID 와 몇 가지 정보만 넣어서 보내고 이외의 필요한 정보는 수신한 곳에서 ID 를 기반으로 API 를 호출하여 데이터를 채워서 처리하는 방식을 의미한다.
+
+
+## MD5
+> MD5는 단방향 암호화 기법이다. MD5 함수는 수학적인 알고리즘을 돌려, 어떤 값을 집어넣어도 위처럼 32개의 알파벳과 숫자로 변환해서 뽑아 주는 함수다. 같은 값을 넣으면 반드시 같은 값이 반환되며, 서로 다른 값을 넣었을 때 같은 값이 반환될 확률은 제로에 가깝다.  https://mytory.net/archives/96
+
