@@ -1288,3 +1288,8 @@ public class User {
 
 ## 콜 스택
 > 콜 스택(call stack)이란 **컴퓨터 프로그램에서 현재 실행 중인 서브루틴에 관한 정보를 저장하는 스택 자료구조**이다.
+
+
+## SSR (server side rendering)
+> SSR 이란 'Server Side Rendering'의 약자입니다. 말 그대로 **서버 측에서 페이지를 렌더링 한다는 의미**인데, 서버에서 브라우저에 보일 HTML 파일을 미리 준비해서 응답해 주는 형식입니다.
+
