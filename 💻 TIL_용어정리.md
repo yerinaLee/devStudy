@@ -1293,3 +1293,6 @@ public class User {
 ## SSR (server side rendering)
 > SSR 이란 'Server Side Rendering'의 약자입니다. 말 그대로 **서버 측에서 페이지를 렌더링 한다는 의미**인데, 서버에서 브라우저에 보일 HTML 파일을 미리 준비해서 응답해 주는 형식입니다.
 
+
+## WSDL(Web Services Description Language)
+> **웹 서비스 기술언어 또는 기술된 정의 파일의 총칭**으로 XML로 기술된다. 웹 서비스의 구체적 내용이 기술되어 있어 서비스 제공 장소, 서비스 메시지 포맷, 프로토콜 등이 기술된다.
