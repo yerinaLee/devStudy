@@ -1303,3 +1303,7 @@ public class User {
 
 
 
+## Vaccum
+> PostgreSQL의  GC (Garbage Collector)의 역할을 하는 동작
+
+
