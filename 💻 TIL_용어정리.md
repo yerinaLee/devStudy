@@ -1307,3 +1307,8 @@ public class User {
 > PostgreSQL의  GC (Garbage Collector)의 역할을 하는 동작
 
 
+## AJP 
+> AJP는 웹서버(Apache)에서 요청되는 것을 WAS에서 들어오는 요청을 위임하는 프로토콜 입니다. 웹 WAS를 구축하는 사람들은 AJP를 통해 웹서버로부터의 오는 요청들을 로드 밸런스 역할로 이용합니다.
+- 출처: [https://gaebaldiary.tistory.com/33](https://gaebaldiary.tistory.com/33) [개발자가 되고싶은 개발일기:티스토리]
+
+
