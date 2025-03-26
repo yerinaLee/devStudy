@@ -9,3 +9,12 @@ SELECT *FROM (
 WHERE c_name IN('create_ip','last_update_ip','ClientIp')  
 ;
 ```
+
+
+maria DB
+```
+SELECT TABLE_SCHEMA, table_name, `COLUMN_NAME`
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE COLUMN_NAME like '%auth%';
+```
+
