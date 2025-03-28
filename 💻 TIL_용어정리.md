@@ -1315,3 +1315,7 @@ public class User {
 ## iis (Internet Information Sevices)
 > ms의 웹서버
 > 웹서버 : 웹사이트를 제공하는 서버로 만들어주는 소프트웨어 개념
+
+
+## KQL(Kusto Query Language)
+
