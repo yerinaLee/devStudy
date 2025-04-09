@@ -135,7 +135,7 @@ url이랑 DB 컬럼이랑
 
 
 
-/storey
+### /storey
 LostArkGuideController.gameStoreyAction
 --> getContentTitleName
 	--> getMenuListJSON 백에서 menu tb 리스트 가져옴 //  
@@ -157,7 +157,7 @@ LostArkGuideController.gameStoreyAction
 
 
 
-table
+### 사용 table 정보
 menu 상단 nav 메뉴와 하위메뉴
 
 
