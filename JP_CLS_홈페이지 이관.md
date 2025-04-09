@@ -154,7 +154,7 @@ url이랑 DB 컬럼이랑
 	
 ![[Pasted image 20250409164705.png]]
 
-	--> `(happ) GetContentArticleListJSON` : 게임별로 정렬조건 세팅해서 게시글 싹 가져옴
+	--> contentGroupNo 갖고 `(happ) GetContentArticleListJSON` : 게임별로 정렬조건 세팅해서 게시글 싹 가져옴
 
 
 화면 : common102Storey
