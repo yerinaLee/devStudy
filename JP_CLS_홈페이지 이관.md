@@ -153,3 +153,19 @@ display_order에 따라
 table
 menu 상단 nav 메뉴와 하위메뉴
 
+
+
+
+기존 게임 가이드 그대로 insert하는 쿼리
+```
+INSERT into content_article(begin_date_time , comment_count , content , content_group_id , content_no , content_title , date_created , end_date_time , hit_count , img_url , is_banner_post , is_inquiry_post , is_launcher_post , is_main_post , keyword , last_updated , launcher_bannerurl , link_url , main_bannerurl , movieurl , register_date_time , sub_content , summary , thumnail_name , side_bannerurl , game_name , gname , attch_file_url , allow_voting_count , is_hidden_article , date_shown) 
+select begin_date_time , comment_count , content , content_group_id , content_no , content_title , date_created , end_date_time , hit_count , img_url , is_banner_post , is_inquiry_post , is_launcher_post , is_main_post , keyword , last_updated , launcher_bannerurl ,link_url , main_bannerurl , movieurl , register_date_time , sub_content , summary , thumnail_name , side_bannerurl , game_name , gname , attch_file_url , allow_voting_count , is_hidden_article , date_shown 
+from content_article ca
+where content_group_id = (SELECT id FROM content_group cg
+WHERE cg.game_id = (SELECT id FROM game WHERE short_name='cls')
+AND cg.content_group_name='cls_GUIDE')
+;
+```
+
+
+
