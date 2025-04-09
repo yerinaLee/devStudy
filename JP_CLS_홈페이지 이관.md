@@ -150,6 +150,10 @@ url이랑 DB 컬럼이랑
 
 --> `cmsSao.GetContentArticleListJSON`
 	--> `UrlParseToJsonBean.GetContentsGroupNoJSON` -> `(happy) GetContentsGroupNoJSON` 게임의 content_type 가져옴
+		jcgf responses는 이렇게 옴 ㅇㅇ
+	
+![[Pasted image 20250409164705.png]]
+
 	--> `(happ) GetContentArticleListJSON` : 게임별로 정렬조건 세팅해서 게시글 싹 가져옴
 
 
