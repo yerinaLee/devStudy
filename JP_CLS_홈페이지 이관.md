@@ -136,9 +136,9 @@ url이랑 DB 컬럼이랑
 
 
 ### /storey
-LostArkGuideController.gameStoreyAction
---> getContentTitleName
-	--> getMenuListJSON 백에서 menu tb 리스트 가져옴 //  
+`LostArkGuideController.gameStoreyAction`
+--> `getContentTitleName`
+	--> `(happy) getMenuListJSON` 에서 menu tb 리스트 가져옴 //  
 	order("location", "ASC")  
 	order("displayOrder", "ASC")
 	
@@ -148,9 +148,8 @@ LostArkGuideController.gameStoreyAction
 	-- 가져와서 NAV_BOX 만 빼옴
 	-- 거기서 parentTitle(gnb_title1 html), menuTitle(storey html) 세팅
 
-
---> cmsSao.GetContentArticleListJSON
-	--> (happ) GetContentArticleListJSON : 게임별로 정렬조건 세팅해서 게시글 싹 가져옴
+--> `cmsSao.GetContentArticleListJSON`
+	--> `(happ) GetContentArticleListJSON` : 게임별로 정렬조건 세팅해서 게시글 싹 가져옴
 
 
 
@@ -162,7 +161,7 @@ menu 상단 nav 메뉴와 하위메뉴
 
 
 
-
+### 기존 게시물 insert 쿼리(guide)
 기존 게임 가이드 그대로 insert하는 쿼리
 ```
 INSERT into content_article(begin_date_time , comment_count , content , content_group_id , content_no , content_title , date_created , end_date_time , hit_count , img_url , is_banner_post , is_inquiry_post , is_launcher_post , is_main_post , keyword , last_updated , launcher_bannerurl , link_url , main_bannerurl , movieurl , register_date_time , sub_content , summary , thumnail_name , side_bannerurl , game_name , gname , attch_file_url , allow_voting_count , is_hidden_article , date_shown) 
