@@ -157,9 +157,18 @@ url이랑 DB 컬럼이랑
 	--> contentGroupNo 갖고 `(happ) GetContentArticleListJSON` : 게임별로 정렬조건 세팅해서 게시글 싹 가져옴
 
 
-화면 : common102Storey
+화면 : `common102Storey`
 
 그런데 content_type에 storey가 없음! 요청하면 생성하셈,,,
+
+
+
+
+
+
+### 
+
+
 
 
 
