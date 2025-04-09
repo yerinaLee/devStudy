@@ -138,4 +138,18 @@ url이랑 DB 컬럼이랑
 /storey
 gameStoreyAction
 --> getContentTitleName
-	--> getMenuListJSON 백에서 메뉴 리스트 가져옴
+	--> getMenuListJSON 백에서 menu tb 리스트 가져옴 //  
+	order("location", "ASC")  
+	order("displayOrder", "ASC")
+	
+![[Pasted image 20250409131323.png]]
+
+display_order에 따라
+
+
+
+
+
+table
+menu 상단 nav 메뉴와 하위메뉴
+
