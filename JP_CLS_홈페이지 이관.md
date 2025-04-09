@@ -136,17 +136,18 @@ url이랑 DB 컬럼이랑
 
 
 /storey
-gameStoreyAction
+LostArkGuideController.gameStoreyAction
 --> getContentTitleName
 	--> getMenuListJSON 백에서 menu tb 리스트 가져옴 //  
 	order("location", "ASC")  
 	order("displayOrder", "ASC")
 	
 ![[Pasted image 20250409131323.png]]
+	display_order에 따라 나오는 순서가 달라짐 (backoffice에서 설정 가능)
+	
+	-- 가져와서 NAV_BOX 만 빼옴
+	-- 거기서 parentTitle(gnb_title1 html), menuTitle(storey html) 세팅
 
-display_order에 따라 나오는 순서가 달라짐 (backoffice에서 설정 가능)
-
--- 가져와서 NAV_BOX 만 빼옴
 
 
 
