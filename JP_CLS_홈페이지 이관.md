@@ -184,3 +184,20 @@ AND cg.content_group_name='cls_GUIDE')
 
 
 
+
+
+### menu html 수정
+
+nav_menu1
+
+```
+<a class="dropdown-item" href="/game/closers/story">遊戲背景</a> <!--STORY -->
+<a class="dropdown-item" href="/game/closers/classInfo">角色介紹</a>
+<a class="dropdown-item" href="/game/closers/features/detail?contentNo=59315">遊戲特色</a> <!-- GUIDE -->
+<a class="dropdown-item" href="/game/closers/beginner/detail?contentNo=59302">遊戲教學</a> <!-- BEGINNER -->
+```
+
+
+
+nav_menu2
+
