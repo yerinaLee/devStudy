@@ -146,6 +146,8 @@ gameStoreyAction
 
 display_order에 따라 나오는 순서가 달라짐 (backoffice에서 설정 가능)
 
+-- 가져와서 NAV_BOX 만 빼옴
+
 
 
 
