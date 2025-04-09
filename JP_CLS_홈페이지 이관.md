@@ -85,3 +85,45 @@ http://dev.happytuk.co.jp/Index/Member/Login?gname=closers&ref=/Index/Service/Cu
 
 온라인충전 : 충전페이지
 교환코드 : 쿠폰페이지
+
+
+
+JP 라테일 쿠폰페이지
+https://www.happytuk.co.jp/web/login?gname=la&ref=/web/coupon/main%3Fgname%3Dla
+https://www.happytuk.co.jp/web/coupon/main?gname=la
+
+/web/coupon/main?gname=la
+
+
+
+
+JP 라테일 결제페이지
+https://la.happytuk.co.jp/web/billing/softbank/request?gname=la
+
+/web/billing/softbank/request?gname=la
+
+
+
+가야되는 페이지:
+<a class="dropdown-item paymentLink" href="https://qa.happytuk.co.jp/web/billing/softbank/request?gname=closers">線上儲值</a>
+<a class="dropdown-item couponLink" href="/web/coupon/main?gname=closers">兌換序號</a>
+
+
+
+WebContent/WEB-INF/jsp/game/layout/games/ge/header.jsp
+
+WebContent/WEB-INF/jsp/game/layout/header_pages_2.jsp
+
+
+내 비번:
+$2a$10$.APA3uMnoBQCnRpL8YRupuRNh9MWYXId1qjy8GIKg00Yya8B6FNiu
+
+/api/otp/selfvalidate
+
+개인정보보호정책
+「특별거래법」및「자금결제법」
+
+
+valid = OTP.otpValidate(secretString, userInputValidateCodeString); 여기서 not 뜬듯
+
+
