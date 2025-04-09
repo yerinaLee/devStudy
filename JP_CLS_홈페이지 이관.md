@@ -144,7 +144,9 @@ gameStoreyAction
 	
 ![[Pasted image 20250409131323.png]]
 
-display_order에 따라
+display_order에 따라 나오는 순서가 달라짐 (backoffice에서 설정 가능)
+
+
 
 
 
