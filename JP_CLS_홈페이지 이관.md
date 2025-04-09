@@ -150,7 +150,7 @@ LostArkGuideController.gameStoreyAction
 
 
 --> cmsSao.GetContentArticleListJSON
-	--> (happ) GetContentArticleListJSON : 게임별로 정렬조건 세팅
+	--> (happ) GetContentArticleListJSON : 게임별로 정렬조건 세팅해서 게시글 싹 가져옴
 
 
 
