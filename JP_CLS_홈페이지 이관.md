@@ -149,6 +149,7 @@ LostArkGuideController.gameStoreyAction
 	-- 거기서 parentTitle(gnb_title1 html), menuTitle(storey html) 세팅
 
 
+--> cmsSao.GetContentArticleListJSON
 
 
 
