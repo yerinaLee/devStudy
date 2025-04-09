@@ -138,3 +138,4 @@ url이랑 DB 컬럼이랑
 /storey
 gameStoreyAction
 --> getContentTitleName
+	--> getMenuListJSON 백에서 메뉴 리스트 가져옴
