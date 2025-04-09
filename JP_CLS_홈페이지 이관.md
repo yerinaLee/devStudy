@@ -133,3 +133,7 @@ valid = OTP.otpValidate(secretString, userInputValidateCodeString); 여기서 no
 - [ ] 어느게시판 어디에 뭐가 있고 어떤거랑 연결되는건지 보기
 url이랑 DB 컬럼이랑
 
+
+
+/storey
+gameStoreyAction
