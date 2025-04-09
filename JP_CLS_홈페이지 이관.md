@@ -137,3 +137,4 @@ url이랑 DB 컬럼이랑
 
 /storey
 gameStoreyAction
+--> getContentTitleName
