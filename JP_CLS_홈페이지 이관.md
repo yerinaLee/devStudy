@@ -208,3 +208,7 @@ nav_menu2
 - [ ] content_type 생성 (shop, update) 
 update - 신규생성. CST048
 shop - TW에 있어서 CST041로 이어서함
+
+- [ ] update, shop 페이지 추가해야함
+- [ ] index에 게시판들 정렬해?
+- [ ] mobile에도 gnbtitle 클릭하면 넘어가게 ㄱㄱ
