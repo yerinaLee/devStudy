@@ -205,21 +205,19 @@ nav_menu2
 
 
 4/10
-- [ ] content_type 생성 (shop, update) 
+- [x] content_type 생성 (shop, update) 
 update - 신규생성. CST048
 shop - TW에 있어서 CST041로 이어서함
 
 
-- [ ] update, shop 페이지 추가해야함
-- ~~update 추가중~~~ -> notice꺼 가져오면된대욤 완료
+- [x] update, shop 페이지 추가해야함
+- update 추가중~~~ -> notice꺼 가져오면된대욤 완료
 - shop
 
 
-
-기존 게시판별 menuTitle 메뉴타이틀 일본어로 바꿔야한다~
+- [ ] 기존 게시판별 menuTitle 메뉴타이틀 일본어로 바꿔야한다~
 
 
 - [ ] index에 게시판들 정렬해?
-- [ ] mobile에도 gnbtitle 클릭하면 넘어가게 ㄱㄱ
-
-nav_menu1_mo
+- [x] mobile에도 gnbtitle 클릭하면 넘어가게 ㄱㄱ
+id값 nav_menu1_mo 이걸로 gnbTitle에 먹여서 menu에서 script 넣었음!
