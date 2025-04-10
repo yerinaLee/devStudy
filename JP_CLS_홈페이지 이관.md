@@ -201,3 +201,10 @@ nav_menu1
 
 nav_menu2
 
+
+
+
+4/10
+- [ ] content_type 생성 (shop, update) 
+update - 신규생성. CST048
+shop - TW에 있어서 CST041로 이어서함
