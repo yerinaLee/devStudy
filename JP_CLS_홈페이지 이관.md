@@ -221,3 +221,5 @@ shop - TW에 있어서 CST041로 이어서함
 
 - [ ] index에 게시판들 정렬해?
 - [ ] mobile에도 gnbtitle 클릭하면 넘어가게 ㄱㄱ
+
+nav_menu1_mo
