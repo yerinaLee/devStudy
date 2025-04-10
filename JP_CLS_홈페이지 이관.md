@@ -211,7 +211,9 @@ shop - TW에 있어서 CST041로 이어서함
 
 
 - [ ] update, shop 페이지 추가해야함
-- update 추가중~~~ -> notice꺼 가져오면된대욤
+- ~~update 추가중~~~ -> notice꺼 가져오면된대욤 완료
+- shop
+
 
 
 기존 게시판별 menuTitle 메뉴타이틀 일본어로 바꿔야한다~
