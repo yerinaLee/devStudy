@@ -231,3 +231,6 @@ id값 nav_menu1_mo 이걸로 gnbTitle에 먹여서 menu에서 script 넣었음!
 4/11
 - [ ] ２．  1의 변경에 따라 Top Page에 표시되는 List에 Update와 shop의 정보가 표시되도록 변경 부탁드립니다.
 -어제 이거 하다가 감
+
+
+badge_hot : notice임
