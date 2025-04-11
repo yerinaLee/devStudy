@@ -221,3 +221,13 @@ shop - TW에 있어서 CST041로 이어서함
 - [ ] index에 게시판들 정렬해?
 - [x] mobile에도 gnbtitle 클릭하면 넘어가게 ㄱㄱ
 id값 nav_menu1_mo 이걸로 gnbTitle에 먹여서 menu에서 script 넣었음!
+
+
+- [x] 다운로드 페이지 안나오는거 수정함 -> 디폴트값 없는 코드들도 모두 수정했음
+
+
+- [x] １．  Update, shop에 대해서는 Thumnail 형식이 아닌 Notice나 Announce와 같은 List 형식으로 변경 부탁드립니다.  
+
+4/11
+- [ ] ２．  1의 변경에 따라 Top Page에 표시되는 List에 Update와 shop의 정보가 표시되도록 변경 부탁드립니다.
+-어제 이거 하다가 감
