@@ -234,3 +234,10 @@ id값 nav_menu1_mo 이걸로 gnbTitle에 먹여서 menu에서 script 넣었음!
 
 
 badge_hot : notice임
+
+
+dev(jp)
+-Darea=jp -Dmode=TEST -Dapi.domain=10.3.100.111:8080/ -DuseMemcached=false -Dfile.encoding=UTF-8
+
+dev(jp-local)
+-Darea=jp -Dmode=TEST -Dapi.domain=10.3.100.111:8080/ -DuseMemcached=false -Dfile.encoding=UTF-8
