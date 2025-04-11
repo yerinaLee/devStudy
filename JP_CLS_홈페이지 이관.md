@@ -241,3 +241,10 @@ dev(jp)
 
 dev(jp-local)
 -Darea=jp -Dmode=TEST -Dapi.domain=10.3.100.111:8080/ -DuseMemcached=false -Dfile.encoding=UTF-8
+
+
+
+- [ ] event 눌렀을때 type=now안가게...
+- [ ] event 밑에 검색창 있게...
+- [ ] /notice 등등에 우측 사이드바 바꾸기...
+
