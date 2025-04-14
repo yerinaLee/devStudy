@@ -266,3 +266,51 @@ dev(jp-local)
 memcached 102만 이름 수정하는거( _ 100) shop부터 이어서하면댐~~~~
 
 
+important 게시글 가져오는 포인트
+
+CommonMenuPrepare
+
+250 Line
+mixNoticeFixedList = cmsSao.getMixedNoticeArticleByKeywordJSON(request,1,ProjectConstant.ROW_PER_PAGE_COUNT_100, gname, "import");
+여기서 가져와서
+
+case 100 : case 101 : case 102 :
+request.setAttribute("mixNoticeFixedList", mixNoticeFixedList);
+
+367 Line 여기서 집어넣음
+
+======================================================
+
+그리고 노출되는건 각 update.jsp 페이지에 붙어있는
+admin_notice.jsp에서
+<c:forEach items="${ mixNoticeFixedList }" var="fixedList" begin="0" end="1">
+이걸로 2개만 조절해서 노출됨
+
+아 그런데 짬뽕게시판의 2개가 아니라 특정 게시판의 2개여야하는데...
+
+-> count 변수 넣어서 해결!
+
+
+======================================
+
+엥 그런데 system 게시판은 important 된건 게시글 내에서 다시 불러와지지않고,
+다른 게시판들은 important된것도 게시글 내에서 중복으로 가져와짐 ㅋㅋㅋㅋㅋㅋ
+
+-> important만 
+
+
+systemList 	= this.getContentArticleList(request, "prepareSystemListCache"	, serviceCode, CONTENT_TYPE_SYSTEM	, ROW_PER_PAGE_COUNT_5);
+
+
+QA배포하니까또
+notice, update가 안보임
+
+
+WebContent/WEB-INF/jsp/game/layout/template102/common/admin_notice.jsp
+
+
+
+<p>${fixedList}</p>
+
+
+멤캐시드 수정하는중....헐....
