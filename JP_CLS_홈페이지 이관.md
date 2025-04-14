@@ -251,3 +251,15 @@ dev(jp-local)
 
 - [ ] /notice 등등에 우측 사이드바 바꾸기...
 - [ ] 새로생긴 detail 페이지 다른것들이랑 같이 구색 맞추기...
+
+
+4/14
+- [ ] important는 해당 게시판에만 뜨게해달래 ^ㅗ^
+* mixNoticeFixedList: important  
+* noticeList : 기본
+
+애초에 게시글마다 mixNoticeFixedList 가져올때 해당 게시판의 게시글만 가져오도록 해야할듯? 분기처리 ㄱㄱ?
+
+
+
+- [ ] event 옆에 뱃지 다르게 나오는거 설정하기
