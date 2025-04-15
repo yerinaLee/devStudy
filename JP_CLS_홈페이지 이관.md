@@ -314,3 +314,53 @@ WebContent/WEB-INF/jsp/game/layout/template102/common/admin_notice.jsp
 
 
 멤캐시드 수정하는중....헐....
+
+
+mixed 호출하는 곳을 일본용도로 따로 만들기
+주석 넣구~~~
+
+
+포인트는 mixed를 어디서 불러오느냐?
+system
+update
+
+
+cmsSAO에다가 메서드 만들기~~~ㄱㄱ~~~~~
+
+이벤트페이지 페이지네이션 넘어갈때 type now 붙고 게시글 안나옴 
+
+
+게시글이 10개이면 페이지네이션이 나온다..?
+
+이벤트페이지는
+fix 포함해서 11개임...
+
+news는 fix포함 10개임
+
+총 리스트엔 10개가 보여지는게맞고
+이벤트만 그 이상이 보여짐. 아마 이거때문에 페이지네이션에 오류나는듯
+
+
+mixNoticeFixedList
+
+
+
+commonMenuPrepare
+
+newMainMixNoticeFixedListCache_100
+이부분도 사실상 게시판타입별로 나눠서 세팅해줘야함 -> 이 멤캐시드를 게시판에서 보고 null인지 아닌지 확인...
+그러려면 commonMenu에 메뉴이름이 들어오는지 봐야하는데..? -> url로 세팅해야할듯 ㅠ
+
+아그런데 이건 우선순위는 뒤로 빼놓자... 복잡시럽다
+
+
+
+rowPerPageCount 이게 : 8인데
+(important제외하고는) 10개나옴
+
+
+문제 : 화면에 일반게시글이 10개가 나온다
+페이지네이션은 잘못된거없음
+
+
+ㅋㅎ noticeList를 그냥 새로 가져온 rowPerPage로 다시 불러서 덮어씌워버려씀....이거맞나 일단 notice만 이렇게 해서 배포 ㄱㄱ
