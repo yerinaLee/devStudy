@@ -370,3 +370,7 @@ TW 으로 켜서 테스트해보고
 notice, event, system, shop, update
 
 - [ ] pagination TW 테스트 ㄱㄱ~~~
+기존TW VM
+-Darea=tw -Dmode=TEST -Dapi.domain=qa-happycode.mangot5.com:8080/ -DuseMemcached=false -Dfile.encoding=UTF-8
+
+로컬로 바꿈
