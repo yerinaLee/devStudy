@@ -365,3 +365,8 @@ TW 으로 켜서 테스트해보고
 
 => 일단 지금한건 임포턴트 갯수 포함해서 총 10개로 맞춤.
 - [ ] 만약 임포턴트 제외하고 해달라고했을때? 만들어서 주석해놓기~
+
+- [x] pagination -> 새로운 rowCount로 게시글 다시 불러오는 코드 작성, JP 테스트 완료
+notice, event, system, shop, update
+
+- [ ] pagination TW 테스트 ㄱㄱ~~~
