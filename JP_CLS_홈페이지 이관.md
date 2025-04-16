@@ -369,8 +369,8 @@ TW 으로 켜서 테스트해보고
 - [x] pagination -> 새로운 rowCount로 게시글 다시 불러오는 코드 작성, JP 테스트 완료
 notice, event, system, shop, update
 
-- [ ] pagination TW 테스트 ㄱㄱ~~~
+- [x] 로컬에서 pagination TW 테스트 ㄱㄱ~~~ 문제없어보임!!!
 기존TW VM
 -Darea=tw -Dmode=TEST -Dapi.domain=qa-happycode.mangot5.com:8080/ -DuseMemcached=false -Dfile.encoding=UTF-8
 
-로컬로 바꿈
+- [ ] 페이지네이션 - QA 배포해서 테스트 ㄱㄱ
