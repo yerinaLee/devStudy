@@ -375,3 +375,7 @@ notice, event, system, shop, update
 
 - [x] 페이지네이션 - QA 배포해서 테스트 ㄱㄱ
 JP, TW 모두 문제없어보임!
+
+
+
+[[JP_cls 홈페이지 분석]]
