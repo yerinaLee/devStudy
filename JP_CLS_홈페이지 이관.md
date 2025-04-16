@@ -262,8 +262,8 @@ dev(jp-local)
 
 
 
-- [ ] event 옆에 뱃지 다르게 나오는거 설정하기
-memcached 102만 이름 수정하는거( _ 100) shop부터 이어서하면댐~~~~
+- [x] event 옆에 뱃지 다르게 나오는거 설정하기
+- [x] memcached 102만 이름 수정하는거( _ 100) shop부터 이어서하면댐~~~~
 
 
 important 게시글 가져오는 포인트
@@ -373,4 +373,5 @@ notice, event, system, shop, update
 기존TW VM
 -Darea=tw -Dmode=TEST -Dapi.domain=qa-happycode.mangot5.com:8080/ -DuseMemcached=false -Dfile.encoding=UTF-8
 
-- [ ] 페이지네이션 - QA 배포해서 테스트 ㄱㄱ
+- [x] 페이지네이션 - QA 배포해서 테스트 ㄱㄱ
+JP, TW 모두 문제없어보임!
