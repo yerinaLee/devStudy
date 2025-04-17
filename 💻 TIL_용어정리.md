@@ -1319,3 +1319,9 @@ public class User {
 
 ## KQL(Kusto Query Language)
 
+
+
+## as-is , To-be
+> as-is : 현재 시스템
+> to-be : 새로 도입될 시스템
+> 마이그레이션 개념
