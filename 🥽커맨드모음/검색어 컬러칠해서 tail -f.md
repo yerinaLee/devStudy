@@ -1,0 +1,1 @@
+`tail -f 검색할파일명 | sed --unbuffered "s/색깔칠할검색어/$(printf '\033[1;31m색깔칠할검색어\033[0m')/g"`
