@@ -1,0 +1,5 @@
+```
+NullList = Collections.emptyList();
+```
+
+
