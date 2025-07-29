@@ -1,5 +1,5 @@
-
-# ✅ 2. DDD란? (Domain-Driven Design)
+ 
+# ✅ DDD란? (Domain-Driven Design)
 
 ### ▶️ **정의**
 
