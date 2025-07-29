@@ -134,6 +134,11 @@ class BookServiceSpec extends Specification {
 ```
 
 
+서버 위치  : `test/unit/com/happycode/item/BookService.groovy`
+
+
+
+
 
 ## 📌 2단계: 실제 기능을 구현해서 테스트 통과시키기 (Green 단계)
 
