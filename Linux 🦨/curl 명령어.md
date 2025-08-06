@@ -32,6 +32,8 @@ curl -v -L [URL]
 ```
 verbose 모드로 실행하면 리다이렉션 과정 볼 수 있음
 
+현재 상황 : 1차 url -> 2차 url 리다이렉션
+
 ```
 C:\Users\admin>curl -v -L https://clo.mangot5.com  
 
@@ -106,3 +108,80 @@ A%2FqjJvCun84tLTOLLtKa4bl9ICFTXCIDWDCsdifGQZYUw%2BJAHNc3kJKaBx25BeyvOe7RXNv%2BPa
 <!DOCTYPE html><html lang="zh-TW"><head><title>《封印者：CLOSERS》7/24 特莉絲事前創建</title><meta charset="UTF-8">....</body></html>* Connection #1 to host landing.mangot5.com left intact
 ```
 
+
+
+## 🔁 리다이렉션 발생 포인트
+
+### ✅ **1단계 - 최초 요청**
+
+```plaintext
+> GET / HTTP/1.1
+> Host: clo.mangot5.com
+```
+
+👉 이 요청은 `https://clo.mangot5.com`에 대한 요청입니다.
+
+---
+
+### 📥 **서버 응답: 302 Found**
+
+```plaintext
+< HTTP/1.1 302 Found
+< Location: https://landing.mangot5.com/template/cls/event/250724_triss_create/index.html
+```
+
+✅ 여기서 **중요 포인트**:
+
+- 응답 상태 코드: `302 Found` → **리다이렉션**
+    
+- `Location` 헤더에 지정된 새 주소:  
+    `https://landing.mangot5.com/template/cls/event/250724_triss_create/index.html`
+    
+
+즉, 서버가 말하길:
+
+> "이 페이지는 여기서 찾을 수 있어요 → `landing.mangot5.com/...`"
+
+---
+
+### 🔁 **2단계 - curl이 -L 옵션으로 자동 재요청**
+
+```plaintext
+* Issue another request to this URL: 'https://landing.mangot5.com/template/cls/event/250724_triss_create/index.html'
+```
+
+그리고 그 주소로 다시 요청을 보냅니다:
+
+```plaintext
+> GET /template/cls/event/250724_triss_create/index.html HTTP/1.1
+> Host: landing.mangot5.com
+```
+
+---
+
+### ✅ **최종 응답**
+
+```plaintext
+< HTTP/1.1 200 OK
+```
+
+- 리다이렉션 없이 **정상 응답 (200 OK)** 을 받았고,
+    
+- HTML 본문이 출력되며 페이지가 완전히 로딩됨.
+    
+
+---
+
+## 📌 결론
+
+리다이렉션은 정확히 **1번 발생**했고, 그 지점은:
+
+```
+https://clo.mangot5.com
+→ (302 리다이렉트)
+→ https://landing.mangot5.com/template/cls/event/250724_triss_create/index.html
+```
+
+`-L` 옵션 덕분에 자동으로 따라갔고, 최종 콘텐츠를 성공적으로 받아온 것입니다.
+
+필요하다면 이걸 기반으로 리디렉션 추적용 스크립트도 만들 수 있어요.
