@@ -14,3 +14,7 @@ const handleSkillsChange = (e: ChangeEvent<HTMLInputElement>) => {
     - `{...prev}`: **스프레드 문법(Spread Syntax)**. 기존 `portfolio` 객체(`prev`)의 모든 속성을 그대로 복사하여 새로운 객체를 만듦 **(React의 불변성 유지를 위해 매우 중요)**
     - `skills: skillsArray`: 복사된 새 객체의 `skills` 속성 값을 위에서 만든 `skillsArray`로 덮어쓰거나 새로 추가
 
+
+
+- `.map()`은 배열을 위한 변환기의 역할.
+배열의 각 아이템을 처음부터 끝까지 하나씩 꺼내서, 작업(함수)을 적용한 뒤, 그 결과물들을 모아 **완전히 새로운 배열**을 만들어줌
