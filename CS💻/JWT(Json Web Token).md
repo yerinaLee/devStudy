@@ -6,6 +6,9 @@ Json 객체에 인증에 필요한 정보들을 담은 후, 비밀키로 서명�
 https://www.jwt.io/
 [[HTTP 통신]]
 
+[session 기반 인증, 토큰 기반 인증](https://velog.io/@syi9595/JWTJson-Web-Token%EC%9D%80-%EC%99%9C-%EC%82%AC%EC%9A%A9%EB%90%A0%EA%B9%8C)
+
+
 ## 구조
 
 `header(5).payload(5).signature(5)`
