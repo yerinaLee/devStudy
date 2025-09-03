@@ -42,3 +42,11 @@ header, payload를 합친 후 헤더에서 선언한 알고리즘과 key를 이�
 
 - Access Token
 인증된 사용자가 어느 정도 기간동안 재인증 하지 않아도 되도록(로그인이 유지되도록) 하는 토큰
+
+- Refresh Token
+Refresh Token은 Access Token을 다시 발급받기 위한 JWT.
+> 로그인을 했을 때 서버에서 `Access Token`, `Refresh Token`을 동시에 보내주는데 둘의 유효기간을 다르게 해서 보낸다. `Refresh Token`을 한 달, `Access Token` 을 하루로 잡았다면  `Access Token`의 기간이 다 되어도 `Refresh Token`의 기간이 남아있기 때문에  사용자는 로그인 없이 다시 `Access Token`을 발급 받을 수 있다. (로그인 유지)
+
+
+
+
