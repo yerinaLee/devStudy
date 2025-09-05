@@ -1,3 +1,5 @@
+https://yozm.wishket.com/magazine/detail/3311/?utm_source=stibee&utm_medium=email&utm_campaign=newsletter_yozm&utm_content=contents
+
 **적극성 조절**
 빠른 답변이 필요 : 추론 강도 낮춤, 문제 탐색 방식을 명확히 정의, 도구 호출 예산 제한
 ex) `탐색 깊이는 낮게, 완전히 정확하지 않아도 빠르게, 최대 2회만 검색`
@@ -14,6 +16,9 @@ ex) `사용자의 질문이 완전히 해결될 때까지 계속 진행하고, �
 
 
 
+**메타프롬프트: GPT-5에게 프롬프트 개선을 부탁**
+프롬프트가 잘 안 먹힐 때, GPT-5한테 직접 물어보는 것
+ex) 이 프롬프트에서 기대하는 행동은 {원하는 행동}인데, 실제로는 {원치 않는 행동}을 하고 있어요. 어떤 부분을 수정하면 더 잘 작동할까요?
 
 
 
