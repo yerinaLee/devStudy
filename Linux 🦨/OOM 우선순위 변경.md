@@ -15,3 +15,8 @@ fi
 
 
 `/proc/PID/oom_adj` 에 kill 순서값이 적혀있음~
+
+
+
+- OOM 로그 `java.lang.OutOfMemoryError`
+
