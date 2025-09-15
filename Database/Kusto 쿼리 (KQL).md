@@ -33,12 +33,23 @@ StormEvents
 | extend Duration = EndTime - StartTime
 ```
 
-|종료시간|시작 시간|기간|
-|---|---|---|
-|2007-01-01T00:00:00Z|2007-01-01T00:00:00Z|00:00:00|
-|2007-01-01T00:25:00Z|2007-01-01T00:25:00Z|00:00:00|
+| EndTime              | StartTime            | Duration |
+| -------------------- | -------------------- | -------- |
+| 2007-01-01T00:00:00Z | 2007-01-01T00:00:00Z | 00:00:00 |
+| 2007-01-01T00:25:00Z | 2007-01-01T00:25:00Z | 00:00:00 |
 
 
+**project** : 해당 데이터를 표기함
 
+```
+StormEvents
+| project StartLocation = BeginLocation, TotalInjuries = InjuriesDirect + InjuriesIndirect
+| where TotalInjuries > 5
+```
 
-**project** 
+| StartLocation | TotalInjuries |
+| ------------- | ------------- |
+| LYDIA         | 15            |
+| ROYAL         | 15            |
+| GOTHENBURG    | 9             |
+| PLAINS        | 8             |
