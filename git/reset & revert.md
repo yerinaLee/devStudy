@@ -13,6 +13,9 @@ git reset [1번commit hash]
 git push
 ```
 
+->  `2, 3번 커밋` 내용 모두 사라짐
+
+
 ### options
 **--hard**
 돌아간 커밋 이후의 변경 이력은 모두 삭제
@@ -45,3 +48,40 @@ git commit -m "3번 커밋"
 git revert [1번commit hash]
 ```
 
+-> **`1번 커밋`에 해당하는 내용만 삭제**
+
+git log
+```
+Revert "1번 커밋"
+3번 커밋
+2번 커밋
+1번 커밋
+```
+
+
+-> 만약 1,2,3번 모두 지우려면?
+```
+git revert [1번commit hash] [2번commit hash] [3번commit hash]
+```
+
+
+### option
+`--no-commit`
+-> 바로 commit 시키지 않고, stage 상태만 유지시키려면?
+
+```
+git revert --no-commit [커밋 해쉬]
+
+// 이후
+git commit -m "어떤 커밋을 왜 리버트했니?"
+
+git push
+```
+
+
+
+
+
+
+레퍼런스
+https://kyounghwan01.github.io/blog/etc/git/git-reset-revert/#revert
