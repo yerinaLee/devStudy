@@ -46,5 +46,9 @@ public @interface RestController {
 
 
 
-RestController는 Controller + ResponseBody를 합한 형태
+`RestController`는 `Controller + ResponseBody`를 합한 형태
+
+`Controller + ResponseBody = RestController`
+
+
 
