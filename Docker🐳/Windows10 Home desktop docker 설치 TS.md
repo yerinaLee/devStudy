@@ -122,3 +122,15 @@ OracleLinux_9_5                 Oracle Linux 9.5
 ```
 
 
+이번엔 이런 오류로 날 깜
+```
+PS C:\Windows\System32> wsl --install -d Ubuntu
+다운로드 중: Ubuntu
+설치 중: Ubuntu
+필요한 기능이 설치되어 있지 않기 때문에 작업을 시작할 수 없습니다.
+오류 코드: Wsl/InstallDistro/Service/RegisterDistro/CreateVm/HCS/HCS_E_SERVICE_NOT_AVAILABLE
+```
+
+
+
+그래서 MS store에서 ubuntu 22.04.5 LTS를 다운로드 받아서 바로 실행해보기로함 ㄱㄱ
