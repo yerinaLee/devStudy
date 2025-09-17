@@ -26,6 +26,10 @@ hcs_e_service_not_available
 
 
 9/17 현재상황 : 
+
+가상화 지원 OK
+
+
 기존 docker 삭제
 linux에 ubuntu를 설치중 -> 에러
 ```
