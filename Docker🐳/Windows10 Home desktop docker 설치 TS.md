@@ -64,3 +64,61 @@ HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Lxss\
 
 
 뭔디 뭐가문제인디;
+
+
+ubuntu 가 설치중으로 뜨니까, 삭제하고 다시 깐다
+삭제할땐 예외에러도 나옴;
+```
+PS C:\WINDOWS\Logs\DISM> wsl --unregister Ubuntu
+
+등록 취소 중입니다.
+
+{응용 프로그램 오류} 예외 %s (0x
+
+오류 코드: Wsl/Service/ERROR_UNHANDLED_EXCEPTION
+```
+
+근데 또 다시 확인해보면 멀쩡함 ;
+```
+PS C:\WINDOWS\Logs\DISM> wsl -l -v
+Linux용 Windows 하위 시스템 설치된 배포가 없습니다.
+아래 지침에 따라 배포를 설치하여 이 resolve 수 있습니다.
+  
+사용 가능한 배포를 나열하려면 'wsl.exe --list --online' 사용
+설치하려면 'wsl.exe --install <Distro>'를 선택하세요.
+  
+
+PS C:\WINDOWS\Logs\DISM> wsl.exe --list --online
+다음은 설치할 수 있는 유효한 배포 목록입니다.
+'wsl.exe --install <Distro>'을 사용하여 설치합니다.
+NAME                            FRIENDLY NAME
+AlmaLinux-8                     AlmaLinux OS 8
+AlmaLinux-9                     AlmaLinux OS 9
+AlmaLinux-Kitten-10             AlmaLinux OS Kitten 10
+AlmaLinux-10                    AlmaLinux OS 10
+Debian                          Debian GNU/Linux
+FedoraLinux-42                  Fedora Linux 42
+SUSE-Linux-Enterprise-15-SP6    SUSE Linux Enterprise 15 SP6
+SUSE-Linux-Enterprise-15-SP7    SUSE Linux Enterprise 15 SP7
+Ubuntu                          Ubuntu
+Ubuntu-24.04                    Ubuntu 24.04 LTS
+archlinux                       Arch Linux
+kali-linux                      Kali Linux Rolling
+openSUSE-Tumbleweed             openSUSE Tumbleweed
+openSUSE-Leap-15.6              openSUSE Leap 15.6
+Ubuntu-20.04                    Ubuntu 20.04 LTS
+Ubuntu-22.04                    Ubuntu 22.04 LTS
+OracleLinux_7_9                 Oracle Linux 7.9
+OracleLinux_8_10                Oracle Linux 8.10
+OracleLinux_9_5                 Oracle Linux 9.5
+```
+
+
+
+
+그래서 다시 깜 
+```
+ wsl --install -d Ubuntu
+```
+
+
