@@ -138,3 +138,7 @@ PS C:\Windows\System32> wsl --install -d Ubuntu
 
 
 그래서 MS store에서 ubuntu 22.04.5 LTS를 다운로드 받아서 바로 실행해보기로함 ㄱㄱ
+
+실행이 또 안됨 답답해서 끄고, 우분투 다시 삭제하고 다시 켜려고하는중
+
+wsl --unregister Ubuntu-22.04
