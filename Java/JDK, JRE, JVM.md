@@ -41,4 +41,12 @@ java -XshowSettings:properties -version
 
 >- Java 실행 프로그램. Java로 작성된 모든 프로그램은 JVM에서만 실행됨
 >- JRE가 로컬 컴퓨터 OS에 맞게 설치되어있으면 됨 -> OS 제약 X
->
+
+
+**JVM 작동방식**
+1. Java Compiler가 .java파일을 .class파일로 Byte Code 컴파일 (OS 이전에 JVM이 이해하는 코드)
+.java => .class
+
+2. JVM이 Byte Code를 Binary Code(기계어)로 컴파일
+
+3. JVM이 컴파일한 기계어가 CPU에서 실행
