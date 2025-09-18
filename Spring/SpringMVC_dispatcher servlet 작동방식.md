@@ -25,4 +25,18 @@ dispatcher servlet
 servlet Container
 >servlet의 기능에 대한 정의서를 보고 핸들링함
 >- 웹서버와 소켓으로 통신
->- ex) Tomcat
+>ex) Tomcat
+
+작동방식
+- client 요청 시 web.xml을 기반으로, 요청 URL이 어느 서블릿에 대한 요청인지 탐색
+- 해당 서블릿이 메모리에 없는경우 init()으로 생성
+- 생성 후 service() 메서드를 통해 요청 응답은 doGet(), doPost()로 나뉘어 response 생성
+- 응답완료 후 서블릿 종료 시 destroy()
+
+
+
+아 그니까 요청에 대한 소켓을 자동으로 만들어주는건가?
+그렇네 ...
+
+
+
