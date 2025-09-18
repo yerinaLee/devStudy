@@ -14,3 +14,9 @@ https://inpa.tistory.com/entry/JAVA-%E2%98%95-JDK-JRE-JVM-%EA%B0%9C%EB%85%90-%EA
 특징
 -- JDK는 종류가 여러가지 있음
 -- java의 소스코드는 오픈소스지만, JDK 라이센스가 유료가 될 수 있어 여러 JDK버전이 출시됨(linux와 비슷)
+```
+// java 버전 및 밴더사 조회
+java -XshowSettings:properties -version
+```
+
+
