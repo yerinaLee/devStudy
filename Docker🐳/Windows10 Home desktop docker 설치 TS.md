@@ -166,3 +166,4 @@ Service 'WSL Service' (WSLService) could not be stopped.  Verify that you have s
 ```
 
 
+=> WSL이 좀비상태인것같다고 함. 다 끄고 껐다켰음 ㄱㄱ
