@@ -167,3 +167,8 @@ Service 'WSL Service' (WSLService) could not be stopped.  Verify that you have s
 
 
 => WSL이 좀비상태인것같다고 함. WSL2 기능 다 끄고 껐다켰음 ㄱㄱ 도커도 삭제되어있는 상태~
+
+일단 이거보고.. 얌전히 따라하자 ㅠ
+https://hoehen-flug.tistory.com/16#google_vignette
+
+wsl 명령어 사용위해 재부팅 해야함
