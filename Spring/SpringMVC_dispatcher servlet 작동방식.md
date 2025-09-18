@@ -10,6 +10,8 @@ dispatcher servlet
 
 
 또한 다른 Servlet과 마찬가지로 Java configuration이나 web.xml에 선언하여 매핑되어야 하는데요.???
+-- 그럼 web.xml이 약간 최상위 설정파일같은건가..?
+
 
 
 ### servlet
