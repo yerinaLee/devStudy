@@ -22,6 +22,7 @@ dispatcher servlet
 ![[Pasted image 20250918134127.png]]
 
 
-
-
-
+servlet Container
+>servlet의 기능에 대한 정의서를 보고 핸들링함
+>- 웹서버와 소켓으로 통신
+>- ex) Tomcat
