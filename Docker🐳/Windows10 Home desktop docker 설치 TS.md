@@ -142,3 +142,11 @@ PS C:\Windows\System32> wsl --install -d Ubuntu
 실행이 또 안됨 답답해서 끄고, 우분투 다시 삭제하고 다시 켜려고하는중
 
 wsl --unregister Ubuntu-22.04
+그랬더니 이런 파일이 없다네....
+
+일단 Ubuntu 22.04.5 설치받아서 실행시키니까 아래 에러남
+```
+Installing, this may take a few minutes...  
+WslRegisterDistribution failed with error: 0x80370114  
+Error: 0x80370114 ??? ??? ???? ?? ?? ??? ??? ??? ? ????.
+```
