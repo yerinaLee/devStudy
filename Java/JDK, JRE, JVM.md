@@ -1,0 +1,14 @@
+![[Pasted image 20250918161527.png]]
+
+출처 : 
+https://inpa.tistory.com/entry/JAVA-%E2%98%95-JDK-JRE-JVM-%EA%B0%9C%EB%85%90-%EA%B5%AC%EC%84%B1-%EC%9B%90%EB%A6%AC-%F0%9F%92%AF-%EC%99%84%EB%B2%BD-%EC%B4%9D%EC%A0%95%EB%A6%AC
+
+
+
+## JDK (Java Development Kit)
+> - 자바 개발키트. 자바로 개발하는데 사용되는 SDK(Software Development Kit)키트임
+> - 라이브러리, javac, javadoc 등의 개발도구 포함
+> - JER(Java Runtime Environment) 도 포함 - 자바 프로그램 실행을 위해서
+
+
+

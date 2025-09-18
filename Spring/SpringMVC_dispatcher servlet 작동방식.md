@@ -36,6 +36,9 @@ servlet Container
 
 ? GC는 그럼 java에서도 돌고, tomcat에서도 도는거야?
 => GC는 JVM(Java Virtual Machine)에서 동작
+=> 그럼 java언어가 버전 업이 될때마다 왜 GC도 업그레이드되는가?
+[[JDK, JRE, JVM]]
+
 
 
 ? 아 그니까 요청에 대한 소켓을 자동으로 만들어주는건가?
