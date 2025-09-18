@@ -154,3 +154,15 @@ Error: 0x80370114 ??? ??? ???? ?? ?? ??? ??? ??? ? ????.
 
 일단 https://www.lainyzine.com/ko/article/how-to-install-wsl2-and-use-linux-on-windows-10/
 이거 따라서 wsl update 하는중....
+
+update도 에러됨 세상이 날 억까하는구만
+
+```
+Linux용 Windows 하위 시스템 버전을 2.6.1(으)로 업데이트하는 중입니다.
+Service 'WSL Service' (WSLService) could not be stopped.  Verify that you have sufficient privileges to stop system services.
+업데이트하지 못했습니다(종료 코드: 1603).
+로그 파일: C:\Users\admin\AppData\Local\Temp\wsl-install-logs.txt
+오류 코드: Wsl/UpdatePackage/ERROR_INSTALL_FAILURE
+```
+
+
