@@ -150,3 +150,7 @@ Installing, this may take a few minutes...
 WslRegisterDistribution failed with error: 0x80370114  
 Error: 0x80370114 ??? ??? ???? ?? ?? ??? ??? ??? ? ????.
 ```
+
+
+일단 https://www.lainyzine.com/ko/article/how-to-install-wsl2-and-use-linux-on-windows-10/
+이거 따라서 wsl update 하는중....
