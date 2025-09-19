@@ -172,3 +172,4 @@ Service 'WSL Service' (WSLService) could not be stopped.  Verify that you have s
 https://hoehen-flug.tistory.com/16#google_vignette
 
 wsl 명령어 사용위해 재부팅 해야함
+=> 재부팅 후.. 설치 또 안됨...ㅠ
