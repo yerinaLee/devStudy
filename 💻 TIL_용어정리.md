@@ -1372,5 +1372,5 @@ public class User {
 
 
 ## git revision
-> commit history와 비슷한 개념.
+> commit history와 비슷한 개념. 저장소의 특정 커밋을 가리킴.
 > git의 commit은 고유해시값으로 식별되는데, 
