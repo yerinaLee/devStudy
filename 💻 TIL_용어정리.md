@@ -1369,3 +1369,8 @@ public class User {
 
 ## MPA(Multi Page Application)
 > SPA와 반대되는 전통적인 웹 애플리케이션 개념. 페이지를 이동하면 서버에서 새로운 페이지를 새로 렌더링해서 전송해주는 방식
+
+
+## git revision
+> commit history와 비슷한 개념.
+> git의 commit은 고유해시값으로 식별되는데, 
