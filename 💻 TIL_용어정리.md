@@ -1375,3 +1375,6 @@ public class User {
 > commit history와 비슷한 개념. 저장소의 특정 커밋을 가리킴. 커밋=\=revision
 > git의 commit은 고유 SHA-1 해시값으로 식별됨
 
+
+## iframe
+> 웹 페이지 내에 독립적인 틀(inline frame)을 만들어 다른 문서를 삽입
