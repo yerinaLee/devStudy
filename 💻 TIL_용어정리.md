@@ -1378,3 +1378,8 @@ public class User {
 
 ## iframe
 > 웹 페이지 내에 독립적인 틀(inline frame)을 만들어 다른 문서를 삽입
+
+
+## WYSIWYG 모드
+> What You See Is What You Get
+> 보이는대로 출력되는 화면
