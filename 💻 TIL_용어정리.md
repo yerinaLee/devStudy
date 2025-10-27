@@ -1383,3 +1383,7 @@ public class User {
 ## WYSIWYG 모드
 > What You See Is What You Get
 > 보이는대로 출력되는 화면
+
+## MQTT (Message Queueing Telemetry Transport
+
+> 작은 코드 공간이 필요하거나 네트워크 대역폭이 제한되는 원격 통신을 위해, 즉 IoT와 같은 제한된, 혹은 대규모 트래픽 전송을 위해 만들어진 프로토콜
