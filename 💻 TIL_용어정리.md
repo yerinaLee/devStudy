@@ -1387,3 +1387,10 @@ public class User {
 ## MQTT (Message Queueing Telemetry Transport
 
 > 작은 코드 공간이 필요하거나 네트워크 대역폭이 제한되는 원격 통신을 위해, 즉 IoT와 같은 제한된, 혹은 대규모 트래픽 전송을 위해 만들어진 프로토콜
+
+
+## 페이로드 Payload
+> 사용에 있어서 전송되는 데이터. 헤더와 메타데이터와 같은 데이터는 제외하고, body에 탑재되는 데이터
+
+## Zero payload / Full payload
+> 
