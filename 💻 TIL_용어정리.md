@@ -1393,7 +1393,16 @@ public class User {
 > 사용에 있어서 전송되는 데이터. 헤더와 메타데이터와 같은 데이터는 제외하고, body에 탑재되는 데이터
 
 ## Zero payload / Full payload
+> Zero Payload (Reference Passing) / Full Payload (Entity Passing)
+> 
+> * reference passing/zero payload 의 핵심 : `최소한의 정보`. 이벤트가 발생했다는 사실만 전달, 상세데이터는 해당 Aggregate Root 를 직접 쿼리하는 방식으로 이벤트 데이터 본문을 가져옴
+> 
+>  * Full Payload는 반대로 Entity (Aggregate Root) 전체를 전달하는 방식
+>  
+>  https://medium.com/@dhslrl321/%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%9D%B4%EB%B2%A4%ED%8A%B8%EC%9D%98-%ED%8E%98%EC%9D%B4%EB%A1%9C%EB%93%9C-%EA%B5%AC%ED%98%84-%EA%B0%80%EC%9D%B4%EB%93%9C-full-payload-vs-zero-payload-0dc3eb7c73d2
 
 
 ## Bounded Context
-> 
+> 1Bounded Context = 1 모델
+> DDD의 용어 중 하나. 도메인의 기능/역할에 대해 개별적으로 구분한 논리적 단위/경계
+> ![[Pasted image 20251028110305.png]]
