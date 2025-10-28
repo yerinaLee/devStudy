@@ -1393,4 +1393,7 @@ public class User {
 > 사용에 있어서 전송되는 데이터. 헤더와 메타데이터와 같은 데이터는 제외하고, body에 탑재되는 데이터
 
 ## Zero payload / Full payload
+
+
+## Bounded Context
 > 
