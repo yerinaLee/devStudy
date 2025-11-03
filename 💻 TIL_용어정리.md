@@ -927,6 +927,7 @@ public class User {
 
 ## - CNAME (Canonical Name record)
 > CName 레코드는 **도메인 별명 레코드**라고 부르며, **도메인 주소를 또 다른 도메인 주소로 이중 매핑** 시키는 형태의 DNS 레코드 타입이다.
+> 
 
 
 ## - Ping, lookup 차이
