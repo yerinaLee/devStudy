@@ -925,8 +925,23 @@ public class User {
 > TTL(Time To Live)라는 옵션값은 DNS서버나 사용자 PC의 캐쉬(메모리)에 저장되는 시간을 말한다.
 
 
+## A레코드
+> 특정 도메인 네임에 대응되는 IP 주소를 나타내는 정보. 네임 서버(Name Server)의 존 파일(Zone file)에 존재
+> 
+> example.com.        A      192.0.2.23
+
+
+
 ## - CNAME (Canonical Name record)
 > CName 레코드는 **도메인 별명 레코드**라고 부르며, **도메인 주소를 또 다른 도메인 주소로 이중 매핑** 시키는 형태의 DNS 레코드 타입이다.
+> A레코드와 같이 Name Server Zone 파일에 존재 / A레코드에 대한 alias 같은 개념으로 이해하면 굿
+> 
+>example.com.        A      192.0.2.23
+>www.example.com.    CNAME  example.com
+>
+>
+>(1) example.com으로도 접속할 수 있고  
+>(2) www.example.com으로도 접속할 수 있음
 > 
 
 
