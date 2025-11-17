@@ -1440,3 +1440,6 @@ public class User {
 
 
 
+## blob
+> Binary Large Object
+> 주로 이미지, 비디오, 사운드 등과 같은 큰 멀티미디어 객체를 저장
