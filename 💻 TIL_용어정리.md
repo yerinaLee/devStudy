@@ -587,7 +587,7 @@ public class User {
 > 운영 체제의 DNS 시스템의 일부로, 특정 도메인 이름을 지정된 IP 주소로 직접 매핑하여 DNS 서버를 거치지 않고도 도메인 이름을 IP 주소로 변환할 수 있습니다. 이는 주로 로컬 개발 환경에서 특정 도메인을 특정 IP로 매핑하거나, 네트워크 문제 해결을 위해 사용됩니다.
 > 
 > - Windows에서 `hosts` 파일 위치
-> `C:\Windows\System32\drivers\etc\hosts`
+> C:\Windows\System32\drivers\etc\hosts
 > 
 >- Mac 및 Linux에서 `hosts` 파일 위치
 >`/etc/hosts`
