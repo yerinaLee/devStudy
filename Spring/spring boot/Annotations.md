@@ -194,3 +194,13 @@ excludeFilters는 스캔 대상을 제외하고 싶을 때 사용하며, Filter 
 
 
 출처 : https://any-ting.tistory.com/143
+
+
+
+- @**NorgsConstructor** : 파라미터가 없는 기본 생성자 생성
+    
+- @**AllArgsConstructor** : 모든 필드 값을 파라미터로 받는 생성자를 만들어 준다.
+    
+- @**RequiredArgsConstructor** : final이나 @NonNull 인 필드 값만 파라미터로 받는 생성자를 만들어 준다.
+
+
