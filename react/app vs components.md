@@ -12,3 +12,34 @@ app/(views)/endPoint
 | **utils/**          | **도우미 함수.** 예: 기기 저장소 래퍼 [utils/storage.js](vscode-webview://0ub649usbh35i1bd53si6vqj3jl7kogaisurctrle382lo3kjsi5/utils/storage.js)                                                                                                                                                       |
 | **styles/**         | **공용 스타일 모음.** (이 앱엔 CSS 파일이 없고, JS로 스타일을 정의)                                                                                                                                                                                                                                             |
 | **babel.config.js** | `@components`, `@contexts`, `@styles`, `@utils` 같은 **경로 별칭** 정의. `../../../components` 같은 긴 경로 없이 import하게 해줌 ([babel.config.js](vscode-webview://0ub649usbh35i1bd53si6vqj3jl7kogaisurctrle382lo3kjsi5/babel.config.js))                                                                  |
+
+
+`babel.config.js`
+
+```
+module.exports = function (api) {
+  api.cache(true);
+  return {
+    presets: ["babel-preset-expo"],
+    plugins: [
+      [
+        "module-resolver",
+        {
+          root: ["."],
+          extensions: [".ios.js", ".android.js", ".js", ".ts", ".tsx", ".json"],
+          alias: {
+            "@components": "./components",
+            "@config": "./config",
+            "@contexts": "./contexts",
+            "@styles": "./styles",
+            "@utils": "./utils",
+          },
+        },
+      ],
+    ],
+  };
+};
+```
+
+
+
