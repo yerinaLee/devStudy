@@ -14,3 +14,7 @@ async function getData() {
   return data;
 }
 ```
+
+
+
+await 키워드는 Promise 객체가 완료될 때까지 코드 실행을 일시 중지하므로, try-catch 블록 안에서 사용하여 에러 처리를 할 수 있다. fetch에서 네트워크 에러가 발생할 경우, await 이후의 코드는 실행되지 않으며, catch 블록으로 제어가 넘어가 에러를 처리할 수 있다.
